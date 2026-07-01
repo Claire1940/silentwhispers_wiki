@@ -1,1 +1,10 @@
-{}
+{
+  "nav": {
+    "release": "リリース",
+    "platforms": "プラットフォーム",
+    "preregister": "事前登録",
+    "characters": "キャラクター",
+    "voices": "ボイス",
+    "guide": "ガイド"
+  }
+}

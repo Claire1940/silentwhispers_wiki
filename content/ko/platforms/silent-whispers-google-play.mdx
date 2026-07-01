@@ -1,0 +1,164 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "사일런트 위스퍼: 2026년 출시일, 캐릭터 및 가이드",
+  description: "사일런트 위스퍼의 출시일, 사전 예약, 캐릭터, 트레일러, 스토리, 플랫폼, 보상 및 UE5 연애 시뮬레이션 게임 초보자 가이드를 확인하세요.",
+  category: "가이드",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Silent+Whispers+Guide",
+  date: "2026-07-01",
+  author: "사일런트 위스퍼 위키 팀",
+  keywords: "사일런트 위스퍼, 출시일, 캐릭터, 사전예약, 가이드, UE5, 연애 시뮬레이션"
+}
+
+<Callout type="info" title="퀵 가이드">
+- **사일런트 위스퍼**는 Archosaur Games에서 개발 중인 **UE5 시네마틱 연애 어드벤처** 게임입니다.
+- 현재 공식 웹사이트를 통해 PC, iOS, Android용 글로벌 **사전 예약**이 진행 중입니다.
+- 이 게임은 **타임 루프 서사** 메커니즘과 세 명의 주요 남주인공과의 **1인칭 상호작용**이 특징입니다.
+- 현재 공식 **출시일**이나 게임 내 **기프트 코드 시스템**은 확정되지 않았습니다.
+- 리딤 코드와 관련된 잘못된 정보를 피하기 위해 **공식 채널**을 통해서만 업데이트를 확인하시기 바랍니다.
+</Callout>
+
+<Section icon={Map} title="출시일 및 플랫폼">
+
+사일런트 위스퍼는 현재 부분 유료화(Free-to-play) 타이틀로 개발 중입니다. 기대가 높지만, 공식 발표에서는 품질과 시네마틱 완성도를 강조하고 있으며, 2026년 중반 기준으로 구체적인 출시 일정은 제공되지 않았습니다.
+
+**영상 하이라이트:**
+- Unreal Engine 5의 고퀄리티 비주얼 품질 입증.
+- 대기감 있는 빛바랜 도시(City of Fading Light) 배경 공개.
+- 친밀한 1인칭 연애 상호작용 스타일 강조.
+
+<YouTubeEmbed videoId="JMXLe7YUDeE" title="사일런트 위스퍼 월드 프리미어 PV" />
+
+다음 표는 공식 발표를 바탕으로 확인된 프로젝트의 배포 상태 및 기술적 기반을 요약한 것입니다.
+
+| 카테고리 | 상세 정보 |
+| :--- | :--- |
+| **개발사** | VVANNA STUDIO |
+| **퍼블리셔** | Archosaur Games |
+| **엔진** | Unreal Engine 5 |
+| **플랫폼** | PC, iOS, Android |
+| **비즈니스 모델** | 부분 유료화 (Free-to-play) |
+| **출시일** | 추후 발표 (TBA) |
+
+<Callout type="tip" title="공식 채널 확인">
+항상 [공식 웹사이트](https://whispers.archosaur.com/en/index.html)를 통해 플랫폼 가용성을 확인하세요. 공식적으로 지원되지 않는 APK나 PC 클라이언트를 제공한다고 주장하는 제3자 사이트는 피하시기 바랍니다.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="사전 예약 보상">
+
+공식 포털에서 조기 예약한 플레이어는 출시 보상을 받을 수 있습니다. 이 아이템들은 서버 오픈 후 초기 게임 진행을 돕기 위해 설계되었습니다.
+
+| 보상 아이템 | 유형 | 수량 |
+| :--- | :--- | :--- |
+| **소네트(Sonnet)** | 아바타 칭호 | 1 |
+| **스태미나** | 자원 | 99 |
+| **이클립스 코인** | 재화 | 19,999 |
+| **테론 이벤트 아이템** | 수집품 | 1 |
+
+<Callout type="success" title="예약 방법">
+[공식 예약 페이지](https://whispers.archosaur.com/)를 방문하여 이메일을 입력하세요. 마일스톤 업데이트를 위해 [X (Twitter)](https://x.com/S_whispersEN)와 같은 공식 소셜 미디어 계정을 팔로우하시기 바랍니다.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="주요 캐릭터">
+
+이야기는 빛바랜 도시의 다양한 측면과 연결된 세 명의 주요 남주인공을 중심으로 전개됩니다. 그들의 디자인과 성우 연기는 게임의 몰입감 넘치는 경험의 핵심입니다.
+
+<CardGrid cols={3}>
+  <Card title="알라릭 (Alarik)">
+    - **권위(Authority)**: 힘과 통제를 상징합니다.
+    - **역할**: 규칙 위에 군림하는 압도적인 인물입니다.
+    - **비주얼**: 테크 데모에서 주요하게 다뤄졌습니다.
+  </Card>
+  <Card title="테론 (Theron)">
+    - **그림자(Shadows)**: 칼날과 운명에 연결되어 있습니다.
+    - **역할**: 질서 근처에서 갈등하는 인물입니다.
+    - **비주얼**: 사전 예약 이벤트의 핵심 캐릭터입니다.
+  </Card>
+  <Card title="발렌 (Valen)">
+    - **순수(Purity)**: 얼음 및 눈과 연관되어 있습니다.
+    - **역할**: 신비롭고 운명에 묶인 주인공입니다.
+    - **비주얼**: 타임 루프 스토리의 핵심입니다.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="음성 지원">
+공식 캐릭터 보이스 클립은 현재 영어, 일본어, 한국어로 제공됩니다. 구체적인 샘플은 [공식 YouTube 채널](https://www.youtube.com/@SilentWhispersEN)에서 확인하세요.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="게임플레이 및 특징">
+
+사일런트 위스퍼는 전통적인 로맨스 클리셰와 높은 긴장감의 생존 요소, 기술적 혁신을 결합하여 차별화됩니다.
+
+<Steps>
+  <Step num="1" title="도시 탐험">
+    카페와 공중 정거장 등을 방문하며 빛바랜 도시를 자유롭게 탐험합니다.
+  </Step>
+  <Step num="2" title="1인칭 상호작용">
+    UE5 렌더링을 활용해 사실적으로 구현된 친밀한 초근접 장면에 참여합니다.
+  </Step>
+  <Step num="3" title="타임 루프 선택">
+    반복되는 시도와 생존을 위한 선택이 결과에 영향을 미치는 서사를 헤쳐나갑니다.
+  </Step>
+  <Step num="4" title="위험한 게임">
+    낭만적인 데이트와 위험천만한 생존 시나리오, 배신 사이의 균형을 맞춥니다.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="플레이 주의사항">
+전투 중심의 RPG 경험을 기대하지 마세요. 핵심 포커스는 스토리텔링, 관계 구축 및 인터랙티브 어드벤처 메커니즘에 있습니다.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="초보자 체크리스트">
+
+출시를 대비해 다음의 필수 단계를 확인하세요.
+
+<Checklist
+  id="beginner-tasks"
+  title="출시 전 체크리스트:"
+  items={[
+    "공식 웹사이트에서 사전 예약 완료하기",
+    "공식 X 및 Discord 채널 팔로우하기",
+    "세계관 파악을 위해 월드 프리미어 PV 시청하기",
+    "시스템 요구 사양 확인을 위해 공식 채널 모니터링하기"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="자주 묻는 질문 (FAQ)">
+
+<FAQ items={[
+  {
+    question: "사일런트 위스퍼를 Steam에서 이용할 수 있나요?",
+    answer: "현재 사일런트 위스퍼의 공식 Steam 상점 페이지는 없습니다. 게임은 PC, iOS, Android 플랫폼으로 출시될 예정입니다."
+  },
+  {
+    question: "활성화된 기프트 코드가 있나요?",
+    answer: "아니요. 현재 공식적인 기프트 코드 리딤 시스템은 존재하지 않습니다. 코드를 제공한다고 주장하는 사이트를 주의하세요."
+  },
+  {
+    question: "게임 엔진은 무엇인가요?",
+    answer: "이 게임은 Unreal Engine 5를 사용하여 제작되었으며, 이를 통해 4K 시네마틱 비주얼과 실시간 캐릭터 렌더링을 구현합니다."
+  },
+  {
+    question: "레딧(Reddit) 커뮤니티는 공식인가요?",
+    answer: "레딧 커뮤니티는 팬들이 운영하는 곳입니다. 검증된 소식은 항상 메인 웹사이트에 제공된 공식 소셜 미디어 링크를 참조하세요."
+  }
+]} />
+
+</Section>

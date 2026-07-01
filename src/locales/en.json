@@ -10,7 +10,14 @@
       "twitterDescription": "Silent Whispers covers release date, pre-registration, characters, trailers, and guides for the UE5 cinematic love adventure."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "platforms": "Platforms",
+    "preregister": "Preregister",
+    "characters": "Characters",
+    "voices": "Voices",
+    "guide": "Guide"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -470,7 +477,12 @@
           "type": "World Premiere PV",
           "url": "https://www.youtube.com/watch?v=JMXLe7YUDeE",
           "runtime": "Official YouTube video",
-          "tags": ["Reveal", "Story", "Characters", "UE5"],
+          "tags": [
+            "Reveal",
+            "Story",
+            "Characters",
+            "UE5"
+          ],
           "confirms": [
             "Introduces the core Silent Whispers premise.",
             "Shows the City of Fading Light atmosphere.",
@@ -484,7 +496,12 @@
           "type": "Real-Time Gameplay Tech Demo",
           "url": "https://www.youtube.com/watch?v=px9OBqvs9w4",
           "runtime": "Official YouTube video",
-          "tags": ["Tech Demo", "UE5", "In-Engine", "First-Person"],
+          "tags": [
+            "Tech Demo",
+            "UE5",
+            "In-Engine",
+            "First-Person"
+          ],
           "confirms": [
             "Highlights Unreal Engine 5 real-time rendering.",
             "Shows close-up character realism, skin detail, clothing detail, and cinematic camera work.",
@@ -498,7 +515,12 @@
           "type": "OST Video",
           "url": "https://www.youtube.com/watch?v=K81o-aD0hUo",
           "runtime": "Official YouTube video",
-          "tags": ["OST", "Music", "Mood", "In-Engine Demo"],
+          "tags": [
+            "OST",
+            "Music",
+            "Mood",
+            "In-Engine Demo"
+          ],
           "confirms": [
             "Introduces the music direction for Silent Whispers.",
             "Uses the title \"Illuminated Whispers\" for the first original soundtrack release.",
@@ -512,7 +534,12 @@
           "type": "Official Channel",
           "url": "https://www.youtube.com/@SilentWhispersEN",
           "runtime": "Official channel page",
-          "tags": ["PV", "Tech Demo", "Shorts", "OST"],
+          "tags": [
+            "PV",
+            "Tech Demo",
+            "Shorts",
+            "OST"
+          ],
           "confirms": [
             "Collects the official English video uploads in one place.",
             "Includes reveal videos, tech-demo content, OST content, and later short-form demo posts.",
@@ -525,7 +552,12 @@
           "type": "Short Tech Demo",
           "url": "https://www.youtube.com/@SilentWhispersEN/shorts",
           "runtime": "Official YouTube Shorts page",
-          "tags": ["Shorts", "Tech Demo", "UE5", "Environment"],
+          "tags": [
+            "Shorts",
+            "Tech Demo",
+            "UE5",
+            "Environment"
+          ],
           "confirms": [
             "Official social listings identify this as a real-time rendered birds-eye-view tech demo.",
             "The short-form format is used for additional visual showcases beyond the main PV and full tech demo.",
@@ -691,10 +723,50 @@
         "step2Title": "Launch Status",
         "step2Description": "Track the official release date as it is announced",
         "step3Title": "Official Sources",
-        "step3Description": "Follow only official channels for trustworthy launch updates"
+        "step3Description": "Follow official channels for launch updates"
       },
       "featured": "Featured & Essential",
       "all": "All Release Articles"
+    },
+    "platforms": {
+      "title": "Silent Whispers Platforms",
+      "description": "Confirmed PC, iOS, and Android platform support, storefront status, and device details for Silent Whispers.",
+      "metaTitle": "Silent Whispers Platforms - PC, iOS & Android",
+      "metaDescription": "Silent Whispers platform coverage for PC, iOS, and Android, including storefront status and device compatibility.",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "What is this section?",
+      "whatIsDescription": "Platform coverage for Silent Whispers, including confirmed PC, iOS, and Android releases and where each version will be available.",
+      "why": "Why check platforms?",
+      "whySteps": {
+        "step1Title": "Confirmed Platforms",
+        "step1Description": "Silent Whispers is coming to PC, iOS, and Android",
+        "step2Title": "Storefront Status",
+        "step2Description": "Track where each version launches as official pages go live",
+        "step3Title": "Device Fit",
+        "step3Description": "Pick the device that matches how you want to play"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Platform Articles"
+    },
+    "preregister": {
+      "title": "Silent Whispers Pre-Registration",
+      "description": "Pre-registration rewards, milestone bonuses, eclipse coins, and how to sign up on the official Silent Whispers site.",
+      "metaTitle": "Silent Whispers Pre-Registration - Rewards & Eclipse Coins",
+      "metaDescription": "Pre-register for Silent Whispers to earn milestone rewards and eclipse coins, and learn how to join on the official site.",
+      "categoryLabel": "PRE-REGISTRATION",
+      "whatIs": "What is this section?",
+      "whatIsDescription": "Pre-registration coverage for Silent Whispers, including milestone rewards, eclipse coins, and how to secure early bonuses before launch.",
+      "why": "Why pre-register?",
+      "whySteps": {
+        "step1Title": "Milestone Rewards",
+        "step1Description": "Unlock rewards as pre-registration goals are reached",
+        "step2Title": "Eclipse Coins",
+        "step2Description": "Earn eclipse coins to spend in Silent Whispers at launch",
+        "step3Title": "Early Sign-Up",
+        "step3Description": "Reserve your spot on the official site before release"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Pre-Registration Articles"
     },
     "characters": {
       "title": "Silent Whispers Characters",
@@ -711,30 +783,30 @@
         "step2Title": "Story Tone",
         "step2Description": "Understand each character's image and themes",
         "step3Title": "Voice Languages",
-        "step3Description": "Find voice clips in Chinese, English, and Japanese"
+        "step3Description": "Find voice clips in English, Japanese, and Korean"
       },
       "featured": "Featured & Essential",
       "all": "All Character Articles"
     },
-    "story": {
-      "title": "Silent Whispers Story and World",
-      "description": "The City of Fading Light, time-loop narrative, dangerous games, and survival-driven romance of Silent Whispers.",
-      "metaTitle": "Silent Whispers Story, Lore & City of Fading Light",
-      "metaDescription": "Explore the Silent Whispers world setup, the City of Fading Light, time-loop structure, and survival romance themes.",
-      "categoryLabel": "STORY & WORLD",
+    "voices": {
+      "title": "Silent Whispers Voice Actors",
+      "description": "Voice language options, confirmed cast, and voice clip details for Silent Whispers across English, Japanese, and Korean.",
+      "metaTitle": "Silent Whispers Voice Actors - EN, JP & KR Cast",
+      "metaDescription": "Silent Whispers voice actor coverage across English, Japanese, and Korean, including confirmed cast and audio options.",
+      "categoryLabel": "VOICE ACTORS",
       "whatIs": "What is this section?",
-      "whatIsDescription": "Story and world coverage for Silent Whispers, including its setting, themes, and narrative devices.",
-      "why": "Why follow the story?",
+      "whatIsDescription": "Voice coverage for Silent Whispers, including supported voice languages, confirmed cast, and where to hear official voice clips.",
+      "why": "Why check voice actors?",
       "whySteps": {
-        "step1Title": "World Setup",
-        "step1Description": "Understand the City of Fading Light",
-        "step2Title": "Core Themes",
-        "step2Description": "Track reality, illusion, and survival drama",
-        "step3Title": "Narrative Device",
-        "step3Description": "See how the time loop shapes your choices"
+        "step1Title": "Voice Languages",
+        "step1Description": "Find Silent Whispers voices in English, Japanese, and Korean",
+        "step2Title": "Cast Coverage",
+        "step2Description": "Track confirmed voice actors as they are announced",
+        "step3Title": "Audio Options",
+        "step3Description": "Switch voice language to match how you want to play"
       },
       "featured": "Featured & Essential",
-      "all": "All Story Articles"
+      "all": "All Voice Actor Articles"
     },
     "guide": {
       "title": "Silent Whispers Guides",
@@ -755,26 +827,6 @@
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
-    },
-    "trailer": {
-      "title": "Silent Whispers Trailers and Tech Demo",
-      "description": "Official PV, real-time gameplay tech demo, OST video, and channel updates for Silent Whispers.",
-      "metaTitle": "Silent Whispers Trailers, Tech Demo & OST Videos",
-      "metaDescription": "Watch the Silent Whispers World Premiere PV, real-time UE5 tech demo, and OST videos, and track what each one confirms.",
-      "categoryLabel": "TRAILERS & DEMO",
-      "whatIs": "What is this section?",
-      "whatIsDescription": "Video coverage for Silent Whispers, including official trailers, tech demos, and soundtrack releases.",
-      "why": "Why watch the trailers?",
-      "whySteps": {
-        "step1Title": "See the Visuals",
-        "step1Description": "Experience the UE5 cinematic direction",
-        "step2Title": "Meet the Leads",
-        "step2Description": "Spot Alarik, Theron, and Valen in action",
-        "step3Title": "Track Updates",
-        "step3Description": "Follow new demos and OST releases"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Trailer Articles"
     }
   }
 }

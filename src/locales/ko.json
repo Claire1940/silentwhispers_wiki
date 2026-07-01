@@ -1,1 +1,10 @@
-{}
+{
+  "nav": {
+    "release": "출시",
+    "platforms": "플랫폼",
+    "preregister": "사전예약",
+    "characters": "캐릭터",
+    "voices": "성우",
+    "guide": "가이드"
+  }
+}

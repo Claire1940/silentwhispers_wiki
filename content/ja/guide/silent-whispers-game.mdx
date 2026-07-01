@@ -1,0 +1,206 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "『コードネーム：神不言』攻略ガイド：キャラクター＆最新リリース情報",
+  description: "『コードネーム：神不言』（Silent Whispers）の最新情報を徹底解説。リリース日、対応プラットフォーム、登場キャラクター（リョウ、ソウヤ、ヒサメ）のプロフィール、事前登録報酬についてまとめています。",
+  category: "攻略ガイド",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Silent+Whispers+Guide",
+  date: "2026-07-01",
+  author: "『コードネーム：神不言』Wikiチーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **最優先注目点**: **『コードネーム：神不言』**は、VVANNA STUDIOが開発し、Archosaur Gamesがパブリッシングを手がける、基本プレイ無料の新作シネマティック都市ファンタジー恋愛アドベンチャーゲームです [homepage-modules-1]。
+- **主要システム**: Unreal Engine 5による超高精細なビジュアル、一人称視点でのキャラクターインタラクション、自由度の高い都市探索、そしてサスペンスフルな「ループする世界」をテーマにしたストーリーが特徴です [homepage-modules-1]。
+- **最善の戦略**: 公式サイトで早期に事前登録を行い、正式サービス開始時に役立つ育成リソースやゲーム内通貨、限定キャラクターイベント報酬を確保しましょう [homepage-modules-1]。
+- **重要な注意点**: Steamで配信されている、本作とは無関係のホラーゲーム「Silent Whisper」と混同しないようご注意ください [base-info]。
+- **おすすめの準備**: 公開されている3人の男性主人公「リョウ（Alarik）」「ソウヤ（Theron）」「ヒサメ（Valen）」の情報をチェックして、蝕光都市への旅立ちに備えましょう [homepage-modules-1]。
+</Callout>
+
+<Section icon={Map} title="『コードネーム：神不言』：概要と対応プラットフォーム">
+
+**『コードネーム：神不言』**は、これまでの乙女ゲームの常識を覆すマルチプラットフォーム対応のシネマティック恋愛アドベンチャーとして、世界中で大きな期待を集めているタイトルです [base-info]。開発をVVANNA STUDIO、配信をArchosaur Gamesが担当し、次世代ゲームエンジン「Unreal Engine 5（UE5）」を最大限に活用することで、リアルな質感の3Dキャラクター、精緻なライティング、圧倒的な没入感をもたらす世界観を実現しています [homepage-modules-1]。プレイヤーは、死とループが交錯する極限状態の「蝕光都市（City of Fading Light）」を舞台に、日常の恋愛と、生存を懸けた危険なゲーム、裏切り、そして謎に満ちたループストーリーを体験することになります [homepage-modules-2]。
+
+詳細なガイドに入る前に、まずは公式ワールドプレミアPVを視聴し、本作の緊張感あふれる雰囲気やビジュアル、および重厚な物語の一端を体感してみてください。
+
+**映像の見どころ:**
+- **圧倒的な世界観**: Unreal Engine 5で描かれる、崩壊と再生が交差する「蝕光都市」の息をのむような美しさ [homepage-modules-2]。
+- **キャラクター紹介**: 正式発表された3人の男性主人公たちのシネマティックな初公開映像 [homepage-modules-1]。
+- **ジャンルの融合**: 甘いロマンチックなデートと、生死を懸けたサバイバルシチュエーションのユニークな融合 [homepage-modules-2]。
+- **次世代のビジュアル表現**: クロスプラットフォーム向けに最適化されたリアルタイムライトや、細部まで作り込まれたキャラクターモデル [homepage-modules-1]。
+
+<YouTubeEmbed videoId="JMXLe7YUDeE" title="『コードネーム：神不言』 - ワールドプレミアPV | この鼓動、もう止められない" />
+
+開発チームは、PCとモバイルデバイスの両方で妥協のないシネマティックなリアリティを楽しめるよう、シームレスなクロスプラットフォーム対応を最優先事項として開発を進めています [homepage-modules-1]。グローバル規模での展開が正式発表されているものの、現時点では各ストアページの公開や、詳細な推奨動作環境については未公表となっています [homepage-modules-1]。
+
+| 仕様項目 | 詳細 |
+| --- | --- |
+| 開発元 | VVANNA STUDIO [homepage-modules-1] |
+| パブリッシャー | Archosaur Games [homepage-modules-1] |
+| ゲームエンジン | Unreal Engine 5 [homepage-modules-1] |
+| 対応プラットフォーム | PC, iOS, Android [homepage-modules-1] |
+| ビジネスモデル | 基本プレイ無料（一部アイテム課金あり） [homepage-modules-1] |
+| リリース予定日 | 未定（2026年4月28日発表） [homepage-modules-1] |
+
+<Callout type="warning" title="プラットフォームでの混同に注意">
+Steamなどで配信されている、Chub Nubbs Studio開発の学校を舞台にした同名（または類似名）のホラーゲーム「Silent Whisper」は、本作とは一切関係のない別タイトルです [base-info]。**『コードネーム：神不言』**はシネマティック恋愛アドベンチャーであり、現在Steamストア等には掲載されていません [base-info]。
+</Callout>
+
+<Callout type="info" title="公式チャンネルから情報を入手しましょう">
+古い情報や誤った情報が掲載されている非公式サイトに惑わされないよう、最新ニュースは必ず公式の[『コードネーム：神不言』公式サイト](https://whispers.archosaur.com/)または[Silent Whispers Global Site](https://whispers.archosaur.com/?lang=en)を確認してください [base-info, homepage-modules-2]。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="事前登録ガイドとリリース特典">
+
+現在、公式サイトにてグローバル事前登録の受付が実施されています [homepage-modules-1]。キャンペーンに参加しておくことで、正式サービス開始時にスタートダッシュに役立つ育成リソースやゲーム内通貨、限定コスメティックアイテムなどを獲得できます [homepage-modules-1]。これらのマイルストーン報酬は、ゲーム序盤のストーリーをスムーズに進めたり、キャラクターとの特別なイベントを解放したりするのに非常に役立ちます [homepage-modules-1]。
+
+特典を確実に受け取るために、以下の手順に沿って登録を行ってください：
+
+<Steps>
+  <Step num="1" title="公式サイトにアクセスする">
+    安全なブラウザを使用して、[『コードネーム：神不言』公式サイト](https://whispers.archosaur.com/)にアクセスします [base-info]。
+  </Step>
+  <Step num="2" title="メールアドレスを登録する">
+    事前登録フォームを見つけ、有効なメールアドレスを入力し、希望するゲームプラットフォーム（PC、iOS、または Android）を選択します [homepage-modules-1, homepage-modules-2]。
+  </Step>
+  <Step num="3" title="登録の認証を完了する">
+    送られてくるメールの認証プロセスを完了します。この認証コードは事前登録を確定するためのものであり、ゲーム内で使用するギフトコード（シリアルコード）とは異なりますのでご注意ください [homepage-modules-2]。
+  </Step>
+  <Step num="4" title="正式リリースを待つ">
+    ゲームが正式にリリースされたら、登録したアカウント情報でログインし、ゲーム内のメールボックスから直接特典を受け取ることができます [homepage-modules-1]。
+  </Step>
+</Steps>
+
+事前登録キャンペーンでは、通常の進行用アイテムから、本作のキャラクターに関連した限定コレクティブルまで、様々な報酬が用意されています [homepage-modules-1]。
+
+| 特典名 | 特典タイプ | 数量 | 獲得・使用コンテキスト |
+| --- | --- | --- | --- |
+| ソネット | アバター称号 | 1点 | リリース時に配布される限定の称号アイテムです [homepage-modules-1] |
+| 君のためにポーズを取ってるわけじゃない。 (It's not like I'm posing for you.) | ソウヤ（Theron）限定イベント報酬 | 1点 | ソウヤのリリース記念キャンペーンに関連した特別なアイテムです [homepage-modules-1] |
+| スタミナ | ゲームプレイ資源 | 99スタミナ | ゲーム序盤のストーリー進行に欠かせないスタミナです [homepage-modules-1] |
+| 蝕光コイン | 主要ゲーム内通貨 | 19,999コイン | ゲーム内での一般的な取引やアイテム購入に使用されます [homepage-modules-1] |
+
+<Callout type="success" title="マイルストーン特典の確保完了">
+上記の手順を完了することで、お使いのアカウントはすべてのコミュニティマイルストーン報酬の受け取り対象として登録されます。これらのアイテムを活用して、リリース初期のゲームプレイを有利に進め、お気に入りのキャラクターとの交流をいち早く楽しみましょう [homepage-modules-1, homepage-modules-2]。
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="登場キャラクターとプロフィール">
+
+本作の物語は、主に3人の魅力的な男性キャラクターたちとの関係性を軸に展開します [homepage-modules-1]。各キャラクターは「蝕光都市」が持つ異なるテーマや運命を象徴しており、日本語、英語、中国語を含むマルチリンガルフルボイスに対応しています [homepage-modules-1]。
+
+本作は戦闘主体のRPGではなく、ストーリー重視のアドベンチャーゲームであるため、従来のゲームのような「最強キャラランキング」や「ティアリスト」は存在しません [homepage-modules-1]。どのキャラクターのストーリーを優先するかは、あなたの好みの属性や惹かれるシナリオルートに合わせて自由に選択してください [homepage-modules-1]。
+
+<CardGrid cols={3}>
+  <Card title="リョウ（Alarik）">
+    - **テーマ**: 支配と絶対的な力 [homepage-modules-1]
+    - **プロフィール**: ルールや世界の理を超越した絶対的な上位者として描かれ、支配と永遠を象徴するカリスマ的なキャラクターです [homepage-modules-1]。
+    - **ボイス対応**: 日本語（CV：小野友樹）、英語、中国語に対応 [homepage-modules-1]。
+  </Card>
+  <Card title="ソウヤ（Theron）">
+    - **テーマ**: 影と運命 [homepage-modules-1]
+    - **プロフィール**: 秩序と混沌のはざまを歩む影であり、鋭利な刃を振るう寡黙な殺し屋。プレイヤーとの緊迫した、かつ危うい関係性が魅力です [homepage-modules-1]。
+    - **ボイス対応**: 日本語（CV：細谷佳正）、英語、中国語に対応 [homepage-modules-1]。
+  </Card>
+  <Card title="ヒサメ（Valen）">
+    - **テーマ**: 氷雪と純粋 [homepage-modules-1]
+    - **プロフィール**: 儚くも美しい佇まいの中に、氷雪のような冷徹さと純粋さを秘めたキャラクター。運命の重圧に耐える重厚なストーリーが展開されます [homepage-modules-1]。
+    - **ボイス対応**: 日本語（CV：高梨謙吾）、英語、中国語に対応 [homepage-modules-1]。
+  </Card>
+</CardGrid>
+
+最初にどのキャラクターに注目するか迷った際は、以下の主要属性とストーリー上の役割を参考にしてください：
+
+| 名前 | 役割 | ストーリーにおける核心的コンセプト | 主な登場メディア |
+| --- | --- | --- | --- |
+| リョウ（Alarik） | 主要攻略キャラクター | 絶対的な支配、永遠の権力、隠された優しさ [homepage-modules-1] | ワールドプレミアPV、実機プレイ映像 [homepage-modules-1] |
+| ソウヤ（Theron） | 主要攻略キャラクター | 危険、刃、影、そして運命の囚人 [homepage-modules-1] | ワールドプレミアPV、事前登録報酬キャンペーン [homepage-modules-1] |
+| ヒサメ（Valen） | 主要攻略キャラクター | 純粋、氷雪、儚さ、そして内に秘めた激重な愛 [homepage-modules-1] | ワールドプレミアPV、実機プレイ映像 [homepage-modules-1] |
+
+<Callout type="tip" title="声優（CV）情報について">
+日本語版のキャラクターボイスは、リョウ役に小野友樹さん、ソウヤ役に細谷佳正さん、ヒサメ役に高梨謙吾さんが起用されています [base-info]。公式発表以外の不確かな噂には注意し、ボイスの雰囲気は[『コードネーム：神不言』公式YouTubeチャンネル](https://www.youtube.com/@SilentWhispersEN)等で公開されている公式PVやキャラクター紹介映像で直接確認することをおすすめします [base-info, homepage-modules-2]。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="ゲームプレイシステムと世界観">
+
+**『コードネーム：神不言』**のゲームプレイは、従来の静的なビジュアルノベルとは一線を画し、自由度の高い探索要素やインタラクティブなリアルタイム要素を取り入れています [homepage-modules-1]。単なる2Dの背景画像ではなく、Unreal Engine 5で描かれたフル3Dの「蝕光都市」をプレイヤー自身の手でナビゲートすることができます [homepage-modules-1, homepage-modules-2]。本作は、ロマンチックなデートシーンと、生死を懸けたサバイバルの選択肢を巧みに融合させており、それらすべてが「ループする世界」という謎に満ちたストーリーと結びついています [homepage-modules-1, homepage-modules-2]。
+
+<Checklist
+  id="gameplay-features"
+  title="主なゲームプレイの特徴："
+  items={[
+    "シネマティックな4Kビジュアル: Unreal Engine 5を採用し、リアルな肌の質感、発汗、光の陰影を息をのむような美しさで表現。",
+    "一人称視点でのインタラクション: キャラクターとの距離が極めて近く、まるで目の前にいるかのような圧倒的な没入感を提供。",
+    "自由な都市探索: カフェ、空中の駅、夕焼け色に染まった観覧車など、蝕光都市の様々なスポットを自由に散策可能。",
+    "ループする物語: サバイバルに関わるプレイヤーの選択が、その後のループやキャラクターとの関係性に直接影響。",
+    "危険なゲーム（試練）: 信頼と裏切りの狭間で、命を懸けた選択を迫られる緊張感あふれるシナリオ。"
+  ]}
+/>
+
+舞台となる「蝕光都市」は、単なる背景美術にとどまりません [homepage-modules-1]。日常の風景の裏に、深い幻影や隠された危険、および世界の崩壊の謎が潜んでいる、生きた環境として設計されています [homepage-modules-1, homepage-modules-2]。プレイヤーは都市を積極的に探索して手がかりを見つけ、キャラクターイベントを発生させながら、ループの真相へと迫っていくことになります [homepage-modules-1, homepage-modules-2]。
+
+<Callout type="info" title="戦闘システムは非搭載の予定">
+プロモーションアートやPVではキャラクターが武器や刃を手にしていますが、現時点で公開されている資料の中に、プレイヤーが直接操作するアクション戦闘や、装備の周回、従来のRPGのような育成システムに関する情報は確認されていません [homepage-modules-1]。本作はストーリーの選択、探索、およびキャラクターとの絆を深めることに重きを置いています [homepage-modules-1]。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="ギフトコードと特典受け取りの最新状況">
+
+現在、本作において使用できる有効なギフトコードやクーポンコードは存在しません [homepage-modules-2]。ゲームがまだ正式リリース前であるため、ネット上で「有効なプロモコード」や「無料アイテムジェネレーター」を謳うサイトはすべて詐欺的なものであり、アカウントの安全を守るためにも絶対に利用しないでください [homepage-modules-1, homepage-modules-2]。
+
+事前登録の「メール認証コード」と、ゲーム内の「ギフトコード」の違いを正しく理解し、大切なアカウント情報を守りましょう [homepage-modules-2]。
+
+| コードの種類 | 現在の状況 | 用途 | 必要な手順 |
+| --- | --- | --- | --- |
+| 公式ギフトコード | なし [homepage-modules-2] | リリース時の記念アイテムや配布リソース | 正式サービス開始後に順次公開予定 [homepage-modules-2] |
+| メール認証コード | 利用可能 [homepage-modules-2] | 公式サイトでの事前登録の確定 | 公式サイトの登録フォームに入力 [homepage-modules-2] |
+| 事前登録特典 | 受付中 [homepage-modules-2] | マイルストーン報酬（スタミナ、コインなど） | リリース後にゲーム内メールから自動配布 [homepage-modules-1, homepage-modules-2] |
+| 他タイトルのコード | 使用不可 [homepage-modules-2] | 類似の恋愛ゲーム用のコード | 本作では一切使用できません [homepage-modules-2] |
+
+<Callout type="warning" title="セキュリティに関する注意">
+ご自身のメール認証コードやアカウントパスワードを、第三者のWebサイト等に入力することは絶対におやめください [homepage-modules-2]。公式の特典配布は、すべて正式なゲームクライアント内、または[Archosaur Gamesポータル（公式サイト）](https://whispers.archosaur.com/)を通じてのみ行われます [base-info, homepage-modules-1]。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="よくある質問（FAQ）">
+
+正式リリースやゲームシステムに関して、よくある質問と回答をまとめました [base-info, homepage-modules-1]。
+
+<FAQ items={[
+  {
+    question: "『コードネーム：神不言』は基本プレイ無料ですか？",
+    answer: "はい、本作は「基本プレイ無料のシネマティック恋愛アドベンチャー」として発表されています。一部アイテム課金（ゲーム内購入）は存在しますが、メインストーリーや各キャラクターのルートは課金を行わなくても楽しむことができます。"
+  },
+  {
+    question: "対応プラットフォームは何ですか？",
+    answer: "PC、iOS、Androidに対応予定です。どのデバイスでも、Unreal Engine 5による高精細なビジュアル表現を同等に楽しめるよう開発が進められています。"
+  },
+  {
+    question: "正式リリース日はいつですか？",
+    answer: "グローバルでの正式リリース日は現時点で「未定（TBA）」となっています。ただし、事前登録の受付が開始されていることから、今後の最新情報にご注目ください。"
+  },
+  {
+    question: "今すぐ使えるシリアルコードやギフトコードはありますか？",
+    answer: "現在、ゲーム内で使用できる有効なコードはありません。偽のコードを掲載しているサードパーティサイトに注意し、公式サイトで行われている事前登録を完了させて公式特典の配布をお待ちください。"
+  }
+]} />
+
+<Callout type="success" title="公式コミュニティに参加しましょう">
+開発チームからの最新アナウンス、開発日誌、コミュニティイベントなどの情報をいち早くキャッチするために、公式の[『コードネーム：神不言』Discordサーバー](https://discord.com/invite/V8KRDaxFnw)に参加し、[公式X（旧Twitter）アカウント](https://x.com/S_whispersEN)をフォローしておくことをおすすめします [base-info]。
+</Callout>
+
+</Section>

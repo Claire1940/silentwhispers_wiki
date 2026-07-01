@@ -1,5 +1,524 @@
 {
-  "en": {},
-  "ja": {},
-  "ko": {}
+  "en": {
+    "characters": [
+      {
+        "slug": "silent-whispers-alaric",
+        "file": "silent-whispers-alaric"
+      },
+      {
+        "slug": "silent-whispers-alarik",
+        "file": "silent-whispers-alarik"
+      },
+      {
+        "slug": "silent-whispers-characters",
+        "file": "silent-whispers-characters"
+      },
+      {
+        "slug": "silent-whispers-ghast",
+        "file": "silent-whispers-ghast"
+      },
+      {
+        "slug": "silent-whispers-love-interests",
+        "file": "silent-whispers-love-interests"
+      },
+      {
+        "slug": "silent-whispers-mc",
+        "file": "silent-whispers-mc"
+      },
+      {
+        "slug": "silent-whispers-theron",
+        "file": "silent-whispers-theron"
+      },
+      {
+        "slug": "silent-whispers-valen",
+        "file": "silent-whispers-valen"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "silent-whispers-beginner-guide",
+        "file": "silent-whispers-beginner-guide"
+      },
+      {
+        "slug": "silent-whispers-dating-sim",
+        "file": "silent-whispers-dating-sim"
+      },
+      {
+        "slug": "silent-whispers-gacha",
+        "file": "silent-whispers-gacha"
+      },
+      {
+        "slug": "silent-whispers-game",
+        "file": "silent-whispers-game"
+      },
+      {
+        "slug": "silent-whispers-gameplay",
+        "file": "silent-whispers-gameplay"
+      },
+      {
+        "slug": "silent-whispers-open-world",
+        "file": "silent-whispers-open-world"
+      },
+      {
+        "slug": "silent-whispers-otome-game",
+        "file": "silent-whispers-otome-game"
+      },
+      {
+        "slug": "silent-whispers-otome",
+        "file": "silent-whispers-otome"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "silent-whispers-android",
+        "file": "silent-whispers-android"
+      },
+      {
+        "slug": "silent-whispers-game-on-pc",
+        "file": "silent-whispers-game-on-pc"
+      },
+      {
+        "slug": "silent-whispers-google-play",
+        "file": "silent-whispers-google-play"
+      },
+      {
+        "slug": "silent-whispers-ios",
+        "file": "silent-whispers-ios"
+      },
+      {
+        "slug": "silent-whispers-mac-version",
+        "file": "silent-whispers-mac-version"
+      },
+      {
+        "slug": "silent-whispers-mobile",
+        "file": "silent-whispers-mobile"
+      },
+      {
+        "slug": "silent-whispers-pc-version",
+        "file": "silent-whispers-pc-version"
+      },
+      {
+        "slug": "silent-whispers-steam",
+        "file": "silent-whispers-steam"
+      }
+    ],
+    "preregister": [
+      {
+        "slug": "silent-whispers-cancel-pre-reg",
+        "file": "silent-whispers-cancel-pre-reg"
+      },
+      {
+        "slug": "silent-whispers-pre-register-code",
+        "file": "silent-whispers-pre-register-code"
+      },
+      {
+        "slug": "silent-whispers-pre-register",
+        "file": "silent-whispers-pre-register"
+      },
+      {
+        "slug": "silent-whispers-pre-registration",
+        "file": "silent-whispers-pre-registration"
+      }
+    ],
+    "release": [
+      {
+        "slug": "silent-whispers-coming-out",
+        "file": "silent-whispers-coming-out"
+      },
+      {
+        "slug": "silent-whispers-debut-date",
+        "file": "silent-whispers-debut-date"
+      },
+      {
+        "slug": "silent-whispers-game-release-date",
+        "file": "silent-whispers-game-release-date"
+      },
+      {
+        "slug": "silent-whispers-launch-date",
+        "file": "silent-whispers-launch-date"
+      },
+      {
+        "slug": "silent-whispers-release-date",
+        "file": "silent-whispers-release-date"
+      },
+      {
+        "slug": "silent-whispers-when-release",
+        "file": "silent-whispers-when-release"
+      }
+    ],
+    "voices": [
+      {
+        "slug": "silent-whispers-alaric-japanese-voice-actor",
+        "file": "silent-whispers-alaric-japanese-voice-actor"
+      },
+      {
+        "slug": "silent-whispers-japanese-va",
+        "file": "silent-whispers-japanese-va"
+      },
+      {
+        "slug": "silent-whispers-japanese-voice-actors",
+        "file": "silent-whispers-japanese-voice-actors"
+      },
+      {
+        "slug": "silent-whispers-theron-jap-va",
+        "file": "silent-whispers-theron-jap-va"
+      },
+      {
+        "slug": "silent-whispers-valen-jap-va",
+        "file": "silent-whispers-valen-jap-va"
+      },
+      {
+        "slug": "silent-whispers-voice-actors",
+        "file": "silent-whispers-voice-actors"
+      }
+    ]
+  },
+  "ja": {
+    "characters": [
+      {
+        "slug": "silent-whispers-alaric",
+        "file": "silent-whispers-alaric"
+      },
+      {
+        "slug": "silent-whispers-alarik",
+        "file": "silent-whispers-alarik"
+      },
+      {
+        "slug": "silent-whispers-characters",
+        "file": "silent-whispers-characters"
+      },
+      {
+        "slug": "silent-whispers-ghast",
+        "file": "silent-whispers-ghast"
+      },
+      {
+        "slug": "silent-whispers-love-interests",
+        "file": "silent-whispers-love-interests"
+      },
+      {
+        "slug": "silent-whispers-mc",
+        "file": "silent-whispers-mc"
+      },
+      {
+        "slug": "silent-whispers-theron",
+        "file": "silent-whispers-theron"
+      },
+      {
+        "slug": "silent-whispers-valen",
+        "file": "silent-whispers-valen"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "silent-whispers-beginner-guide",
+        "file": "silent-whispers-beginner-guide"
+      },
+      {
+        "slug": "silent-whispers-dating-sim",
+        "file": "silent-whispers-dating-sim"
+      },
+      {
+        "slug": "silent-whispers-gacha",
+        "file": "silent-whispers-gacha"
+      },
+      {
+        "slug": "silent-whispers-game",
+        "file": "silent-whispers-game"
+      },
+      {
+        "slug": "silent-whispers-gameplay",
+        "file": "silent-whispers-gameplay"
+      },
+      {
+        "slug": "silent-whispers-open-world",
+        "file": "silent-whispers-open-world"
+      },
+      {
+        "slug": "silent-whispers-otome-game",
+        "file": "silent-whispers-otome-game"
+      },
+      {
+        "slug": "silent-whispers-otome",
+        "file": "silent-whispers-otome"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "silent-whispers-android",
+        "file": "silent-whispers-android"
+      },
+      {
+        "slug": "silent-whispers-game-on-pc",
+        "file": "silent-whispers-game-on-pc"
+      },
+      {
+        "slug": "silent-whispers-google-play",
+        "file": "silent-whispers-google-play"
+      },
+      {
+        "slug": "silent-whispers-ios",
+        "file": "silent-whispers-ios"
+      },
+      {
+        "slug": "silent-whispers-mac-version",
+        "file": "silent-whispers-mac-version"
+      },
+      {
+        "slug": "silent-whispers-mobile",
+        "file": "silent-whispers-mobile"
+      },
+      {
+        "slug": "silent-whispers-pc-version",
+        "file": "silent-whispers-pc-version"
+      },
+      {
+        "slug": "silent-whispers-steam",
+        "file": "silent-whispers-steam"
+      }
+    ],
+    "preregister": [
+      {
+        "slug": "silent-whispers-cancel-pre-reg",
+        "file": "silent-whispers-cancel-pre-reg"
+      },
+      {
+        "slug": "silent-whispers-pre-register-code",
+        "file": "silent-whispers-pre-register-code"
+      },
+      {
+        "slug": "silent-whispers-pre-register",
+        "file": "silent-whispers-pre-register"
+      },
+      {
+        "slug": "silent-whispers-pre-registration",
+        "file": "silent-whispers-pre-registration"
+      }
+    ],
+    "release": [
+      {
+        "slug": "silent-whispers-coming-out",
+        "file": "silent-whispers-coming-out"
+      },
+      {
+        "slug": "silent-whispers-debut-date",
+        "file": "silent-whispers-debut-date"
+      },
+      {
+        "slug": "silent-whispers-game-release-date",
+        "file": "silent-whispers-game-release-date"
+      },
+      {
+        "slug": "silent-whispers-launch-date",
+        "file": "silent-whispers-launch-date"
+      },
+      {
+        "slug": "silent-whispers-release-date",
+        "file": "silent-whispers-release-date"
+      },
+      {
+        "slug": "silent-whispers-when-release",
+        "file": "silent-whispers-when-release"
+      }
+    ],
+    "voices": [
+      {
+        "slug": "silent-whispers-alaric-japanese-voice-actor",
+        "file": "silent-whispers-alaric-japanese-voice-actor"
+      },
+      {
+        "slug": "silent-whispers-japanese-va",
+        "file": "silent-whispers-japanese-va"
+      },
+      {
+        "slug": "silent-whispers-japanese-voice-actors",
+        "file": "silent-whispers-japanese-voice-actors"
+      },
+      {
+        "slug": "silent-whispers-theron-jap-va",
+        "file": "silent-whispers-theron-jap-va"
+      },
+      {
+        "slug": "silent-whispers-valen-jap-va",
+        "file": "silent-whispers-valen-jap-va"
+      },
+      {
+        "slug": "silent-whispers-voice-actors",
+        "file": "silent-whispers-voice-actors"
+      }
+    ]
+  },
+  "ko": {
+    "characters": [
+      {
+        "slug": "silent-whispers-alaric",
+        "file": "silent-whispers-alaric"
+      },
+      {
+        "slug": "silent-whispers-alarik",
+        "file": "silent-whispers-alarik"
+      },
+      {
+        "slug": "silent-whispers-characters",
+        "file": "silent-whispers-characters"
+      },
+      {
+        "slug": "silent-whispers-ghast",
+        "file": "silent-whispers-ghast"
+      },
+      {
+        "slug": "silent-whispers-love-interests",
+        "file": "silent-whispers-love-interests"
+      },
+      {
+        "slug": "silent-whispers-mc",
+        "file": "silent-whispers-mc"
+      },
+      {
+        "slug": "silent-whispers-theron",
+        "file": "silent-whispers-theron"
+      },
+      {
+        "slug": "silent-whispers-valen",
+        "file": "silent-whispers-valen"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "silent-whispers-beginner-guide",
+        "file": "silent-whispers-beginner-guide"
+      },
+      {
+        "slug": "silent-whispers-dating-sim",
+        "file": "silent-whispers-dating-sim"
+      },
+      {
+        "slug": "silent-whispers-gacha",
+        "file": "silent-whispers-gacha"
+      },
+      {
+        "slug": "silent-whispers-game",
+        "file": "silent-whispers-game"
+      },
+      {
+        "slug": "silent-whispers-gameplay",
+        "file": "silent-whispers-gameplay"
+      },
+      {
+        "slug": "silent-whispers-open-world",
+        "file": "silent-whispers-open-world"
+      },
+      {
+        "slug": "silent-whispers-otome-game",
+        "file": "silent-whispers-otome-game"
+      },
+      {
+        "slug": "silent-whispers-otome",
+        "file": "silent-whispers-otome"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "silent-whispers-android",
+        "file": "silent-whispers-android"
+      },
+      {
+        "slug": "silent-whispers-game-on-pc",
+        "file": "silent-whispers-game-on-pc"
+      },
+      {
+        "slug": "silent-whispers-google-play",
+        "file": "silent-whispers-google-play"
+      },
+      {
+        "slug": "silent-whispers-ios",
+        "file": "silent-whispers-ios"
+      },
+      {
+        "slug": "silent-whispers-mac-version",
+        "file": "silent-whispers-mac-version"
+      },
+      {
+        "slug": "silent-whispers-mobile",
+        "file": "silent-whispers-mobile"
+      },
+      {
+        "slug": "silent-whispers-pc-version",
+        "file": "silent-whispers-pc-version"
+      },
+      {
+        "slug": "silent-whispers-steam",
+        "file": "silent-whispers-steam"
+      }
+    ],
+    "preregister": [
+      {
+        "slug": "silent-whispers-cancel-pre-reg",
+        "file": "silent-whispers-cancel-pre-reg"
+      },
+      {
+        "slug": "silent-whispers-pre-register-code",
+        "file": "silent-whispers-pre-register-code"
+      },
+      {
+        "slug": "silent-whispers-pre-register",
+        "file": "silent-whispers-pre-register"
+      },
+      {
+        "slug": "silent-whispers-pre-registration",
+        "file": "silent-whispers-pre-registration"
+      }
+    ],
+    "release": [
+      {
+        "slug": "silent-whispers-coming-out",
+        "file": "silent-whispers-coming-out"
+      },
+      {
+        "slug": "silent-whispers-debut-date",
+        "file": "silent-whispers-debut-date"
+      },
+      {
+        "slug": "silent-whispers-game-release-date",
+        "file": "silent-whispers-game-release-date"
+      },
+      {
+        "slug": "silent-whispers-launch-date",
+        "file": "silent-whispers-launch-date"
+      },
+      {
+        "slug": "silent-whispers-release-date",
+        "file": "silent-whispers-release-date"
+      },
+      {
+        "slug": "silent-whispers-when-release",
+        "file": "silent-whispers-when-release"
+      }
+    ],
+    "voices": [
+      {
+        "slug": "silent-whispers-alaric-japanese-voice-actor",
+        "file": "silent-whispers-alaric-japanese-voice-actor"
+      },
+      {
+        "slug": "silent-whispers-japanese-va",
+        "file": "silent-whispers-japanese-va"
+      },
+      {
+        "slug": "silent-whispers-japanese-voice-actors",
+        "file": "silent-whispers-japanese-voice-actors"
+      },
+      {
+        "slug": "silent-whispers-theron-jap-va",
+        "file": "silent-whispers-theron-jap-va"
+      },
+      {
+        "slug": "silent-whispers-valen-jap-va",
+        "file": "silent-whispers-valen-jap-va"
+      },
+      {
+        "slug": "silent-whispers-voice-actors",
+        "file": "silent-whispers-voice-actors"
+      }
+    ]
+  }
 }
