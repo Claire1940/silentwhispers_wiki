@@ -1,12 +1,12 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Silent Whispers Wiki - Characters, Release Date & Guide",
+  "short_name": "Silent Whispers",
+  "description": "Silent Whispers Wiki covers release date, pre-registration, characters, trailers, story, romance, exploration, and beginner guides for the UE5 cinematic love adventure set in the City of Fading Light.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#d6a047",
+  "background_color": "#131a26",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
