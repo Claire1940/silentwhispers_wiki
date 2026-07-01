@@ -1,46 +1,67 @@
 {
   "categories": [
     {
-      "category": "指南",
+      "category": "发布",
       "keywords": [
-        "lucid blocks 指南"
+        "沉默低语 上线时间",
+        "沉默低语 平台",
+        "沉默低语 PC iOS 安卓"
       ]
     },
     {
-      "category": "合成",
+      "category": "预约",
       "keywords": [
-        "lucid blocks 合成配方",
-        "lucid blocks 神化系统"
+        "沉默低语 预约",
+        "沉默低语 预约奖励",
+        "沉默低语 蚀月币"
       ]
     },
     {
-      "category": "物品",
+      "category": "角色",
       "keywords": [
-        "lucid blocks 信仰法杖",
-        "lucid blocks 蜜蜂滑翔器",
-        "lucid blocks 箱子",
-        "lucid blocks 锇"
+        "沉默低语 角色",
+        "沉默低语 阿拉里克",
+        "沉默低语 瑟伦",
+        "沉默低语 瓦伦"
       ]
     },
     {
-      "category": "生物群系",
+      "category": "玩法",
       "keywords": [
-        "lucid blocks 提亚玛纳地脉"
+        "沉默低语 玩法",
+        "沉默低语 特色",
+        "沉默低语 渐暗之城"
       ]
     },
     {
-      "category": "建造",
+      "category": "剧情",
       "keywords": [
-        "lucid blocks 感质空间"
+        "沉默低语 剧情",
+        "沉默低语 时间循环",
+        "沉默低语 世界观"
       ]
     },
     {
-      "category": "技术支持",
+      "category": "预告",
       "keywords": [
-        "lucid blocks steam deck",
-        "lucid blocks 全屏",
-        "lucid blocks 多人模式",
-        "lucid blocks 安卓版"
+        "沉默低语 PV",
+        "沉默低语 技术演示",
+        "沉默低语 OST"
+      ]
+    },
+    {
+      "category": "兑换码",
+      "keywords": [
+        "沉默低语 兑换码",
+        "沉默低语 礼包码",
+        "沉默低语 激活码"
+      ]
+    },
+    {
+      "category": "攻略",
+      "keywords": [
+        "沉默低语 新手攻略",
+        "沉默低语 wiki"
       ]
     }
   ]

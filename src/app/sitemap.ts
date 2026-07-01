@@ -7,28 +7,25 @@ export const dynamic = 'force-static'
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.silentwhispers.wiki'
 
-// 内容类型优先级配置
+// 内容类型优先级配置（与 navigation.ts 的 CONTENT_TYPES 一一对应）
+// release / platforms / preregister / characters / voices / guide
 const contentTypePriority: Record<string, number> = {
-	'guides': 0.9,
-	'crafting': 0.9,
-	'biomes': 0.8,
-	'creatures': 0.8,
-	'items': 0.8,
-	'achievements': 0.7,
-	'lore': 0.7,
-	'support': 0.6,
+	'release': 0.9,
+	'guide': 0.9,
+	'preregister': 0.8,
+	'characters': 0.8,
+	'voices': 0.8,
+	'platforms': 0.7,
 }
 
-// 内容更新频率配置
+// 内容更新频率配置（release/preregister 时间敏感→daily，其余 weekly）
 const contentTypeChangeFrequency: Record<string, 'daily' | 'weekly' | 'monthly'> = {
-	'guides': 'weekly',
-	'crafting': 'weekly',
-	'biomes': 'weekly',
-	'creatures': 'weekly',
-	'items': 'weekly',
-	'achievements': 'monthly',
-	'lore': 'monthly',
-	'support': 'monthly',
+	'release': 'daily',
+	'preregister': 'daily',
+	'platforms': 'weekly',
+	'characters': 'weekly',
+	'voices': 'weekly',
+	'guide': 'weekly',
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {

@@ -1,10 +1,832 @@
 {
+  "seo": {
+    "home": {
+      "title": "Silent Whispers - キャラクター、配信日＆ガイド",
+      "description": "Silent Whispersの配信日、事前登録、キャラクター、トレーラー、ストーリー、対応機種、特典、UE5恋愛ゲームの初心者ガイドを紹介しています。",
+      "keywords": "Silent Whispers, PC, iOS, Android, 乙女ゲーム, 配信日, キャラクター, ガイド, トレーラー, 事前登録",
+      "ogTitle": "Silent Whispers - キャラクター、配信日＆ガイド",
+      "ogDescription": "Silent Whispersの配信日、事前登録、キャラクター、トレーラー、ストーリー、対応機種、特典、UE5恋愛ゲームの初心者ガイドを紹介しています。",
+      "twitterTitle": "Silent Whispers - キャラクター、配信日＆ガイド",
+      "twitterDescription": "Silent Whispersの配信日、事前登録、キャラクター、トレーラー、UE5シネマティック恋愛アドベンチャーのガイドを掲載しています。"
+    }
+  },
   "nav": {
     "release": "リリース",
-    "platforms": "プラットフォーム",
+    "platforms": "対応機種",
     "preregister": "事前登録",
     "characters": "キャラクター",
     "voices": "ボイス",
     "guide": "ガイド"
+  },
+  "common": {
+    "home": "ホーム",
+    "more": "もっと見る",
+    "playNow": "今すぐ事前登録",
+    "switchLanguage": "言語切り替え",
+    "switchTheme": "テーマ切り替え",
+    "lightMode": "ライトモード",
+    "darkMode": "ダークモード",
+    "notFound": "ページが見つかりません",
+    "notFoundDescription": "お探しのページは存在しません。",
+    "backToHome": "ホームに戻る",
+    "relatedArticles": "関連記事",
+    "readMore": "続きを読む",
+    "articlesComingSoon": "記事は近日公開予定です"
+  },
+  "hero": {
+    "badge": "UE5 シネマティック恋愛アドベンチャー",
+    "title": "Silent Whispers Wiki",
+    "description": "「消えゆく光の街」を舞台にした基本プレイ無料のUE5シネマティック恋愛アドベンチャー『Silent Whispers』を探索。恋愛、タイムループでの生存選択、都市探索、キャラクター、トレーラー、事前登録特典などの情報を掲載しています。",
+    "getFreeCodesCTA": "事前登録特典",
+    "playOnSteamCTA": "公式サイトで事前登録",
+    "stats": {
+      "stat1": {
+        "value": "未定",
+        "label": "配信日"
+      },
+      "stat2": {
+        "value": "PC / iOS / Android",
+        "label": "対応機種"
+      },
+      "stat3": {
+        "value": "3",
+        "label": "登場確定キャラクター"
+      },
+      "stat4": {
+        "value": "UE5",
+        "label": "ゲームエンジン"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Silent Whispers ゲームプレイ",
+    "description": "PC、iOS、Android向けのUE5恋愛アドベンチャーで、映画のようなロマンス、一人称視点のインタラクション、自由度の高い都市探索、そしてタイムループ・サバイバルを体験しましょう。"
+  },
+  "tools": {
+    "title": "Silent Whispers",
+    "titleHighlight": "ガイドハブ",
+    "subtitle": "Silent Whispersのリリース、キャラクター、ストーリー、報酬を把握するために必要なすべての情報",
+    "cards": [
+      {
+        "icon": "カレンダー",
+        "title": "Silent Whispers リリース日",
+        "description": "プラットフォーム、パブリッシャー、エンジン、配信状況"
+      },
+      {
+        "icon": "ギフト",
+        "title": "Silent Whispers 事前登録",
+        "description": "リリース報酬と事前登録方法"
+      },
+      {
+        "icon": "ユーザー",
+        "title": "Silent Whispers キャラクター",
+        "description": "確定している3人の男性主人公とその役割"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Silent Whispers ゲームプレイ",
+        "description": "主要機能、探索、恋愛システム"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Silent Whispers 初心者ガイド",
+        "description": "公開されている基本情報はこちらから"
+      },
+      {
+        "icon": "BookMarked",
+        "title": "Silent Whispers ストーリー",
+        "description": "褪せた光の街、タイムループ、サバイバル"
+      },
+      {
+        "icon": "Film",
+        "title": "Silent Whispers トレーラー",
+        "description": "PV、リアルタイム技術デモ、OST動画"
+      },
+      {
+        "icon": "Ticket",
+        "title": "Silent Whispers シリアルコード",
+        "description": "ギフトコードと特典受け取り状況トラッカー"
+      }
+    ]
+  },
+  "modules": {
+    "silentWhispersReleaseDateAndPlatforms": {
+      "title": "Silent Whispers リリース日、プラットフォーム、パブリッシャー",
+      "displayType": "info-cards",
+      "intro": "Silent Whispersの配信状況、確定したプラットフォーム、開発元、パブリッシャー、公開ストアの詳細など、主要なリリース情報を網羅しています。本作は全世界向けに発表されており、今後の詳細は公式チャンネルを通じて順次公開される予定です。",
+      "items": [
+        {
+          "icon": "BadgeCheck",
+          "label": "配信状況",
+          "value": "発表済み",
+          "details": "Silent Whispersは、基本プレイ無料のシネマティック恋愛アドベンチャーゲームとして発表されました。"
+        },
+        {
+          "icon": "カレンダー",
+          "label": "リリース日",
+          "value": "未定",
+          "details": "PC、iOS、Android向けの正確なグローバルリリース日は、公式チャンネルを通じて発表される予定です。"
+        },
+        {
+          "icon": "Monitor",
+          "label": "対応プラットフォーム",
+          "value": "PC, iOS, Android",
+          "details": "公式発表では、PC、iOS、Androidが対象プラットフォームとして挙げられています。"
+        },
+        {
+          "icon": "コード",
+          "label": "開発元",
+          "value": "VVANNA STUDIO",
+          "details": "VVANNA STUDIOは、『Silent Whispers』の開発を担当しているスタジオです。"
+        },
+        {
+          "icon": "Building2",
+          "label": "パブリッシャー",
+          "value": "Archosaur Games",
+          "details": "Archosaur Gamesは『Silent Whispers』のパブリッシングおよび公式サイトの運営を行っています。"
+        },
+        {
+          "icon": "コイン",
+          "label": "ビジネスモデル",
+          "value": "基本プレイ無料",
+          "details": "『Silent Whispers』は基本プレイ無料のゲームで、課金システムやコンテンツの詳細についてはリリースが近づいた際にお知らせいたします。"
+        },
+        {
+          "icon": "CPU",
+          "label": "エンジン",
+          "value": "Unreal Engine 5",
+          "details": "本作は、映画のようなビジュアル表現を実現するためにUnreal Engine 5を使用しています。"
+        },
+        {
+          "icon": "ShoppingBag",
+          "label": "ストアフロント",
+          "value": "事前登録公式サイト",
+          "details": "公式サイトにて事前登録を受付中です。App Store、Google Play、およびPCクライアントのページは、公開され次第リンクされます。"
+        }
+      ]
+    },
+    "silentWhispersPreRegistrationRewards": {
+      "title": "『Silent Whispers』事前登録報酬",
+      "displayType": "reward-cards",
+      "intro": "『Silent Whispers』公式サイトにてグローバル事前登録を受付中です。登録されたプレイヤーには、アバター称号「ソネット」、セロン関連のイベント報酬、スタミナ、エクリプスコインを含むリリース特典が配布されます。",
+      "items": [
+        {
+          "icon": "Globe",
+          "name": "公式事前登録",
+          "type": "登録ポータル",
+          "amount": "受付中",
+          "description": "プレイヤーは、『Silent Whispers』公式サイトの登録フォームから事前登録を行うことができます。",
+          "claim_context": "リリース報酬の配布は、サービス開始後にゲーム内で行われます。"
+        },
+        {
+          "icon": "Award",
+          "name": "ソネット",
+          "type": "アバター称号",
+          "amount": "称号×1",
+          "description": "「ソネット」は、事前登録のアバター称号報酬としてリストされています。",
+          "claim_context": "事前登録を行ったプレイヤー向けのリリース特典セットに含まれています。"
+        },
+        {
+          "icon": "Heart",
+          "name": "セロンイベント報酬",
+          "type": "イベント報酬",
+          "amount": "1つのイベント報酬",
+          "description": "セロン関連のイベント報酬「別にあなたのためにポーズをとっているわけじゃない」が、事前登録特典の一部に含まれています。",
+          "claim_context": "セロンおよび事前登録報酬キャンペーンに関連しています。"
+        },
+        {
+          "icon": "稲妻",
+          "name": "スタミナ",
+          "type": "ゲームプレイリソース",
+          "amount": "99",
+          "description": "スタミナは事前登録報酬バンドルの一部として記載されています。",
+          "claim_context": "ゲームリリース後の序盤のリソースとして役立ちます。"
+        },
+        {
+          "icon": "サークルドル記号",
+          "name": "エクリプスコイン",
+          "type": "通貨",
+          "amount": "19,999",
+          "description": "エクリプスコインは、事前登録バンドルの主な通貨報酬として記載されています。",
+          "claim_context": "事前登録したプレイヤー向けのリリース報酬に含まれています。"
+        }
+      ]
+    },
+    "silentWhispersCharacters": {
+      "title": "『Silent Whispers』のメインキャラクター紹介",
+      "displayType": "character-cards",
+      "intro": "『Silent Whispers』はこれまでに、アラリック、セロン、ヴァレンの3人のメイン恋愛キャラクターを公開しています。各キャラクターは、公式紹介文、PVへの登場、および多言語のボイスクリップを通じて紹介されています。",
+      "items": [
+        {
+          "icon": "王冠",
+          "name": "アラリック",
+          "role": "メイン恋愛キャラクター",
+          "story_profile": "アラリックは、通常のルールを超越した圧倒的な権威と権力の象徴として描かれており、支配、統制、そして永遠に関連付けられています。",
+          "voice_info": "キャラクターの公式ボイスクリップは、中国語、英語、日本語で用意されています。",
+          "known_from": "公式サイト、ワールドプレミアPV、リアルタイムゲームプレイ技術デモ"
+        },
+        {
+          "icon": "剣",
+          "name": "セロン",
+          "role": "メイン恋愛キャラクター",
+          "story_profile": "セロンは、秩序、刃、影、そして運命に近い危険な人物として描かれており、日常的な恋愛設定が最初に暗示するものよりも、鋭く葛藤に満ちたトーンを持っています。",
+          "voice_info": "キャラクターの公式ボイスクリップは、中国語、英語、日本語で用意されています。",
+          "known_from": "公式サイト、ワールドプレミアPV、事前登録報酬キャンペーン"
+        },
+        {
+          "icon": "雪の結晶",
+          "name": "ヴァレン",
+          "role": "メイン恋愛キャラクター",
+          "story_profile": "ヴァレンは氷、雪、純粋さ、抑制、そして運命に関連付けられており、公開された3人の主人公の中で最も冷たく神秘的なイメージを与えています。",
+          "voice_info": "キャラクターの公式ボイスクリップは、中国語、英語、日本語で用意されています。",
+          "known_from": "公式サイト、ワールドプレミアPV、リアルタイムゲームプレイ技術デモ"
+        }
+      ]
+    },
+    "silentWhispersGameplayAndFeatures": {
+      "title": "『Silent Whispers』のゲームプレイと主要機能",
+      "displayType": "feature-grid",
+      "intro": "『Silent Whispers』は、シネマティックなロマンス、一人称視点のインタラクション、自由な都市探索、タイムループストーリー、デート、そして危険なサバイバルの選択肢を融合させています。公表されているゲームプレイのコンセプトはストーリー重視であり、「消えゆく光の街」における感情的なキャラクターとの交流や選択を中心に構築されています。",
+      "items": [
+        {
+          "icon": "カチンコ",
+          "name": "シネマティックな4Kビジュアル",
+          "category": "ビジュアルプレゼンテーション",
+          "description": "Silent WhispersはUnreal Engine 5を採用し、高精度な3Dキャラクター、都市の情景、ライティング、そして映画のようなロマンチックな瞬間を表現しています。"
+        },
+        {
+          "icon": "目",
+          "name": "一人称視点のインタラクション",
+          "category": "キャラクターとの交流",
+          "description": "本作では親密な一人称視点の瞬間を重視しており、プレイヤーはクローズアップされた視点や直接的なやり取りを通じてキャラクターとのシーンを体験できます。"
+        },
+        {
+          "icon": "マップ",
+          "name": "自由度の高い都市探索",
+          "category": "探索",
+          "description": "プレイヤーは「暮光の街」を自由に探索できます。公開されている情報では、カフェ、空中駅、観覧車、そして日常的な都市の営みなどが描かれています。"
+        },
+        {
+          "icon": "ハート",
+          "name": "ロマンチックなデート",
+          "category": "恋愛コンテンツ",
+          "description": "Silent Whispersの核心となるファンタジーとして、公開された男性主人公たちとのデートや日常のロマンチックな出会いが含まれています。"
+        },
+        {
+          "icon": "右回転",
+          "name": "タイムループ・ナラティブ",
+          "category": "ストーリー構成",
+          "description": "選択、生存、そして繰り返される試行が、都市を舞台にしたプレイヤーの旅を形作るタイムループ構造を採用しています。"
+        },
+        {
+          "icon": "スカル",
+          "name": "危険なゲーム",
+          "category": "サバイバルドラマ",
+          "description": "恋愛だけでなく、生存、裏切り、そして困難な決断を伴う危険なゲームにプレイヤーを誘います。"
+        },
+        {
+          "icon": "月",
+          "name": "暮光の街",
+          "category": "世界設定",
+          "description": "舞台となるのは、一見すると見慣れた風景ながら、日常の裏側に幻想、危険、そして奇妙なルールが隠されたファンタジー都市です。"
+        },
+        {
+          "icon": "スマートフォン",
+          "name": "クロスプラットフォームのビジュアル重視",
+          "category": "テクノロジー",
+          "description": "開発チームはPCとモバイルのビジュアルバランスについて議論を重ねており、キャラクターの表現を技術的な最優先事項としています。"
+        }
+      ]
+    },
+    "silentWhispersBeginnerGuide": {
+      "title": "Silent Whispers 初心者ガイド",
+      "displayType": "ステップ・バイ・ステップ",
+      "intro": "Silent Whispersの基本情報（事前登録、プラットフォーム、ストーリー設定、キャラクター、ゲーム機能、公式更新情報）については、ここから確認しましょう。Silent Whispersは、Archosaur GamesとVvanna Studioが贈る、基本プレイ無料のシネマティック恋愛アドベンチャーです。Unreal Engine 5を採用し、PC、iOS、Androidに対応。「暮光の街」を舞台に、日常のロマンス、自由な探索、一人称視点の交流、サバイバルゲーム、裏切り、そしてタイムループの物語が体験の核となります。",
+      "steps": [
+        {
+          "icon": "カレンダープラス",
+          "title": "公式サイトで事前登録",
+          "summary": "グローバル事前登録の主な窓口として、Silent Whispersの公式サイトを利用してください。",
+          "details": [
+            "公式サイトは、事前登録を行う上で最も安全な場所です。",
+            "発表済みのPC、iOS、Android版の事前登録が受付中です。",
+            "ウェブサイトでのメール認証はアカウント作成または事前登録の確認用であり、ギフトコードの引き換えシステムではありません。"
+          ]
+        },
+        {
+          "icon": "モニター",
+          "title": "対象プラットフォームを選択してください",
+          "summary": "『Silent Whispers』はPC、iOS、Android向けに発表されています。",
+          "details": [
+            "PC、iOS、Androidが対応プラットフォームとして決定しています。",
+            "ストアページ、クライアントのダウンロードリンク、システム要件、および正式リリース版の詳細については、今後公式チャンネルを通じて公開されます。",
+            "各プラットフォームのダウンロードに関する最新情報は、公式サイトや公式SNSをご確認ください。"
+          ]
+        },
+        {
+          "icon": "ユーザー",
+          "title": "登場が決定している3人の男性主人公について知る",
+          "summary": "最初に登場が確定した恋愛対象は、アラリック、セロン、ヴァレンです。",
+          "details": [
+            "アラリックは、規則や常識を超越した強力な存在として描かれています。",
+            "セロンは、秩序の境界に潜む鋭い影であり、運命の囚人として描写されています。",
+            "ヴァレンは、純粋さ、氷、雪、そして重い運命を背負ったキャラクターイメージと結びついています。"
+          ]
+        },
+        {
+          "icon": "マップ",
+          "title": "世界観を理解する",
+          "summary": "物語の舞台は、日常の裏に危険なゲームが隠されたファンタジーメトロポリス「消えゆく光の街」です。",
+          "details": [
+            "街には、カフェ、空中駅、観覧車など、見慣れた日常の空間が存在します。",
+            "プレイヤーがサバイバルシナリオに引き込まれるにつれ、幻想と現実の境界が曖昧になっていきます。",
+            "物語は、選択とセカンドチャンス（やり直しの機会）に紐づいたタイムループ構造を採用しています。"
+          ]
+        },
+        {
+          "icon": "ゲームパッド2",
+          "title": "決定しているゲームプレイの方向性を知る",
+          "summary": "公開された機能の特徴として、映画のような4Kビジュアル、一人称視点でのインタラクション、都市探索、そして恋愛を軸とした選択肢が挙げられます。",
+          "details": [
+            "本作はUnreal Engine 5で開発されています。",
+            "親密な一人称視点でのインタラクションや、自由度の高い都市探索などの機能が決定しています。",
+            "公開されている資料からは、戦闘重視のRPG形式ではなく、映画的な恋愛アドベンチャー形式であることが伺えます。"
+          ]
+        },
+        {
+          "icon": "ベル",
+          "title": "公式アップデートのみを追う",
+          "summary": "リリース情報、動画、イベントのお知らせについては、公式サイト、YouTubeチャンネル、Xアカウント、Discordの招待リンクをご確認ください。",
+          "details": [
+            "公式YouTubeチャンネルでは、ワールドプレミアPV、リアルタイムゲームプレイの技術デモ、オリジナルサウンドトラック（OST）動画、そして今後のショートデモ投稿などが公開されます。",
+            "公式Xアカウントでは、事前登録や技術デモの最新情報が共有されています。",
+            "Discordは、『Silent Whispers』の公式公開資料からリンクされている公式コミュニティへの入り口です。"
+          ]
+        }
+      ],
+      "quickTips": [
+        "公式サイトからの事前登録が、リリース特典を確実に受け取るための主な方法です。",
+        "PC、iOS、Androidが対応プラットフォームとして決定しており、詳細なストアページは後日公開されます。",
+        "本作は、Unreal Engine 5で構築された、ストーリー重視の映画的な恋愛アドベンチャーゲームです。",
+        "ニュース、動画、特典情報については、『Silent Whispers』の公式チャンネルのみをご利用ください。"
+      ]
+    },
+    "silentWhispersStoryAndWorld": {
+      "title": "『Silent Whispers』のストーリーと世界観",
+      "displayType": "ロアカード",
+      "intro": "『Silent Whispers』の中心にある、「消えゆく光の街」、現実と幻想の曖昧な境界線、そして生存をかけた恋愛模様を探索しましょう。この世界では、感情的な親密さ、映画のようなリアリズム、そして「やり直しのチャンスにどれほどの価値があるのか」という問いを中心に、日常のルーティン、デート、都市探索が、危険なゲーム、生存のための選択、裏切り、そしてタイムループの結末と衝突するファンタジーメトロポリスの中で恋愛が描かれます。",
+      "items": [
+        {
+          "icon": "月",
+          "title": "消えゆく光の街",
+          "category": "世界",
+          "summary": "主な舞台は、表向きは見慣れた風景でありながら、その下に隠された脅威を秘めたファンタジー・メトロポリスです。",
+          "details": [
+            "街はカフェや空中駅、夕日に照らされた観覧車といった日常的な空間を通して描かれます。",
+            "そこは安息の地であると同時に、生存が懸かった場所として位置づけられています。",
+            "この街は、日常のロマンスと危険なゲームのような試練とのコントラストを際立たせています。"
+          ]
+        },
+        {
+          "icon": "煌めき",
+          "title": "現実と幻想",
+          "category": "核心テーマ",
+          "summary": "物語は、幻想と現実の境界が曖昧になり始めた世界から始まります。",
+          "details": [
+            "プレイヤーは、光と影が交錯する迷宮のような街へと足を踏み入れます。",
+            "この前提は、感情的な親密さと、より大きなサバイバルの謎を結びつけています。",
+            "公開されたストーリー資料では、単なる日常のロマンスではなく、設定内の不確実性が強調されています。"
+          ]
+        },
+        {
+          "icon": "ハート",
+          "title": "日常のロマンス",
+          "category": "ロマンス",
+          "summary": "Silent Whispersには、男性キャラクターたちとの日常、デート、そして些細な日常の瞬間が含まれています。",
+          "details": [
+            "このゲームは、生きている街で時間を過ごすことを強調しています。",
+            "ロマンチックなシーンは、一人称視点の親密さと映画のような演出が組み合わされています。",
+            "公式の機能リストでは、ロマンスを運命や繰り返される出会いと結びついたものとして構成しています。"
+          ]
+        },
+        {
+          "icon": "スカル",
+          "title": "危険なゲーム",
+          "category": "対立",
+          "summary": "ロマンスの設定は、生存と裏切りを巡る選択を強いる危険なゲームによって中断されます。",
+          "details": [
+            "プレイヤーは次々と危険なゲームに引き込まれていきます。",
+            "生存と裏切りは、公式ストーリー構成の一部です。",
+            "ゲームはこれらの試練を用いて、ロマンスの選択肢に、よりダークでリスクの高い背景を与えています。"
+          ]
+        },
+        {
+          "icon": "RotateCw",
+          "title": "タイムループ・ナラティブ",
+          "category": "物語の手法",
+          "summary": "タイムループは物語構造の確定した一部であり、プレイヤーの「次の自分」のための選択と結びついています。",
+          "details": [
+            "公式の機能リストには、タイムループ・ナラティブが明記されています。",
+            "その前提は、もう一度チャンスを得るためにプレイヤーは何を賭けるかを問いかけます。",
+            "公開されたプレビューでは、ループを繰り返される人生の中でより良い選択をすることと結びつけています。"
+          ]
+        },
+        {
+          "icon": "クラウン",
+          "title": "Alarik",
+          "category": "キャラクター",
+          "summary": "Alarikは確定している3人の男性主人公の一人であり、圧倒的な力とルールを打ち破る権威を中心に描かれています。",
+          "details": [
+            "彼のプロフィールは、彼をルールの超越者として提示しています。",
+            "彼のキャラクターイメージは、支配、力、そして威風堂々とした存在感と結びついています。",
+            "彼は公開されたPVや技術デモ資料に登場します。"
+          ]
+        },
+        {
+          "icon": "Swords",
+          "title": "セロン",
+          "category": "キャラクター",
+          "summary": "セロンは確認されている3人の男性主人公の1人であり、影、秩序、鋭さ、そして運命に関連しています。",
+          "details": [
+            "彼の公式プロフィールでは、秩序の境界に立つ刃のような人物として描かれています。",
+            "事前登録特典は、「別にあなたのためにポーズを取っているわけじゃない」というセロンのイベントに関連しています。",
+            "彼は公式の公開資料や一般のプレビュー報道の随所に登場しています。"
+          ]
+        },
+        {
+          "icon": "Snowflake",
+          "title": "ヴァレン",
+          "category": "キャラクター",
+          "summary": "ヴァレンは確認されている3人の男性主人公の1人であり、氷、雪、純粋さ、および運命のイメージで表現されています。",
+          "details": [
+            "彼の公式プロフィールは、彼を氷雪のイメージと結びつけています。",
+            "プレビュー報道では、世界初公開のPVがヴァレンとループ設定との強い繋がりを示唆していると指摘されています。",
+            "彼は最初に確認された恋愛対象ラインナップの一員です。"
+          ]
+        }
+      ]
+    },
+    "silentWhispersTrailersAndTechDemo": {
+      "title": "Silent Whispers トレーラー＆技術デモ",
+      "displayType": "video-gallery",
+      "intro": "Silent Whispersの公式動画では、消えゆく光の街、確認されている3人の男性主人公、映画のようなUE5のビジュアルディレクション、一人称視点のインタラクションスタイル、そしてゲームの音楽のトーンを紹介しています。各公式アップロード動画は、公開されたお披露目資料から得られた特定のストーリー、キャラクター、およびビジュアルの詳細を裏付けるものです。",
+      "items": [
+        {
+          "icon": "Clapperboard",
+          "title": "Silent Whispers - 世界初公開PV",
+          "type": "世界初公開PV",
+          "url": "https://www.youtube.com/watch?v=JMXLe7YUDeE",
+          "runtime": "公式YouTube動画",
+          "tags": [
+            "公開",
+            "ストーリー",
+            "キャラクター",
+            "UE5"
+          ],
+          "confirms": [
+            "Silent Whispersの基本設定を紹介します。",
+            "消えゆく光の街の雰囲気を描きます。",
+            "確認されている3人の男性主人公、アラリック、セロン、ヴァレンを紹介します。",
+            "恋愛、危険、そしてタイムループの枠組みを結びつけます。"
+          ]
+        },
+        {
+          "icon": "Gamepad2",
+          "title": "Silent Whispers リアルタイムゲームプレイ技術デモ",
+          "type": "リアルタイムゲームプレイ技術デモ",
+          "url": "https://www.youtube.com/watch?v=px9OBqvs9w4",
+          "runtime": "公式YouTube動画",
+          "tags": [
+            "技術デモ",
+            "UE5",
+            "インエンジン",
+            "一人称視点"
+          ],
+          "confirms": [
+            "Unreal Engine 5のリアルタイムレンダリングを強調しています。",
+            "キャラクターのリアリズム、肌の質感、衣装のディテール、そして映画のようなカメラワークをクローズアップで紹介しています。",
+            "一人称視点での恋愛インタラクションシーンにおけるビジュアルの方向性を示しています。",
+            "公式SNSの投稿では、このテクニカルデモ映像はエンジン内でキャプチャされたものと説明されています。"
+          ]
+        },
+        {
+          "icon": "音楽",
+          "title": "Silent Whispers Original Soundtrack Vol. 1 - Illuminated Whispers",
+          "type": "OSTビデオ",
+          "url": "https://www.youtube.com/watch?v=K81o-aD0hUo",
+          "runtime": "公式YouTube動画",
+          "tags": [
+            "OST",
+            "音楽",
+            "ムード",
+            "インエンジンデモ"
+          ],
+          "confirms": [
+            "Silent Whispersの音楽の方向性を紹介しています。",
+            "初のオリジナルサウンドトラックのリリースに「Illuminated Whispers」というタイトルを使用しています。",
+            "公式の投稿では、このアルバムをインエンジン・テクニカルデモのオリジナル楽曲として紹介しています。",
+            "ゲームの感情豊かで映画のような恋愛のトーンを支えています。"
+          ]
+        },
+        {
+          "icon": "PlayCircle",
+          "title": "Silent Whispers 公式YouTubeチャンネル",
+          "type": "公式チャンネル",
+          "url": "https://www.youtube.com/@SilentWhispersEN",
+          "runtime": "公式チャンネルページ",
+          "tags": [
+            "PV",
+            "テクニカルデモ",
+            "ショート",
+            "OST"
+          ],
+          "confirms": [
+            "公式の英語動画のアップロードを一箇所にまとめています。",
+            "公開ビデオ、テクニカルデモのコンテンツ、OSTコンテンツ、そしてその後のショート形式のデモ投稿が含まれています。",
+            "リリース前の新しいトレーラーを追うのに便利です。"
+          ]
+        },
+        {
+          "icon": "Eye",
+          "title": "Silent Whispers 俯瞰テクニカルデモ",
+          "type": "ショート・テクニカルデモ",
+          "url": "https://www.youtube.com/@SilentWhispersEN/shorts",
+          "runtime": "公式YouTubeショートページ",
+          "tags": [
+            "ショート",
+            "テクニカルデモ",
+            "UE5",
+            "環境"
+          ],
+          "confirms": [
+            "公式SNSでは、これをリアルタイムレンダリングによる俯瞰テクニカルデモとして紹介しています。",
+            "ショート形式は、メインPVやフルテクニカルデモ以外の追加のビジュアルショーケースに使用されます。",
+            "新しいビジュアルデモンストレーションのコンパクトな更新フィードとして機能します。"
+          ]
+        }
+      ]
+    },
+    "silentWhispersCodesAndRedeemStatus": {
+      "title": "Silent Whispersのコードと交換状況",
+      "displayType": "コードステータスカード",
+      "intro": "Silent Whispersに公式ギフトコードがあるか、交換状況が事前登録とどう違うか、そしてコード情報をどこで確認すべきかを追跡します。Silent Whispersはグローバル事前登録を開始しており事前登録報酬も確定していますが、公式資料にはまだ有効なギフトコード交換システムが表示されていないため、ウェブサイトのメール認証、事前登録報酬、および実際の交換コードは区別して管理する必要があります。",
+      "items": [
+        {
+          "icon": "チケット",
+          "title": "有効なSilent Whispersのコード",
+          "status": "有効な公式ギフトコードはありません",
+          "code": "なし",
+          "reward": "なし",
+          "expires": "有効期限の記載なし",
+          "details": [
+            "公式サイト、公式YouTubeチャンネル、公式Xアカウント、またはDiscordの招待ページには、Silent Whispers専用の交換コードは記載されていません。",
+            "事前登録報酬はギフトコードではありません。",
+            "このカードは、Silent Whispersの公式チャンネルが実際の交換コードを公開した時にのみ更新されます。"
+          ]
+        },
+        {
+          "icon": "スキャンライン",
+          "title": "公式交換システム",
+          "status": "交換エントリー未開放",
+          "code": "該当なし",
+          "reward": "該当なし",
+          "expires": "該当なし",
+          "details": [
+            "公開されている公式サイトには、Silent Whispers専用のコード交換ページやゲーム内の交換メニューはまだ表示されていません。",
+            "ゲームはまだ正式にリリースされていないため、現在の公開資料では通常のゲーム内交換フローは利用できません。",
+            "今後のコード入力手順については、Silent Whispersの公式発表のみを確認してください。"
+          ]
+        },
+        {
+          "icon": "メールチェック",
+          "title": "ウェブサイトのメール認証",
+          "status": "ギフトコードではありません",
+          "code": "認証コードのみ",
+          "reward": "直接的なアイテム報酬なし",
+          "expires": "セッションベースの認証",
+          "details": [
+            "ウェブサイトの登録やアカウント確認時に使用される認証コードは、登録プロセスの確認のみを目的としています。",
+            "これはSilent Whispersの報酬コードとして扱うべきではありません。",
+            "メール認証コードは秘密に保持し、公式サイトでのみ使用してください。"
+          ]
+        },
+        {
+          "icon": "ギフト",
+          "title": "事前登録報酬",
+          "status": "確定済み報酬カテゴリー",
+          "code": "公開ページではコード不要",
+          "reward": "アバター称号「ソネット」、Theronイベント、スタミナ×99、Eclipse Coins×19,999",
+          "expires": "受け取りのタイミングは公式のリリース指示に従います",
+          "details": [
+            "公開情報では、アバター称号「ソネット」が事前登録報酬としてリストされています。",
+            "Theronに関連する「It's not like I'm posing for you.」という名前のイベントが事前登録報酬セットに含まれています。",
+            "リリースに向けて事前登録したプレイヤーへの報酬として、スタミナ×99とEclipse Coins×19,999が記載されています。"
+          ]
+        },
+        {
+          "icon": "警告アイコン",
+          "title": "異なるゲームのコードに関する警告",
+          "status": "無関係なWhispersコードを使用しないでください",
+          "code": "Silent Whispersのコードではありません",
+          "reward": "Silent Whispersでは無効です",
+          "expires": "該当なし",
+          "details": [
+            "「Whispers」という言葉を含む他のゲームのコードは、Silent Whispersのコードではありません。",
+            "Silent WhispersはArchosaur Gamesより配信、VVANNA STUDIOにより開発されています。コードの出所はSilent Whispersの公式チャンネルと一致する必要があります。",
+            "Silent Whispersと無関係なインタラクティブストーリーのコードリストを混合しているページは避けてください。"
+          ]
+        },
+        {
+          "icon": "メガホン",
+          "title": "注目の公式コード情報源",
+          "status": "公式チャンネルのみ",
+          "code": "公式リリース待ち",
+          "reward": "公式リリース待ち",
+          "expires": "公式リリース待ち",
+          "details": [
+            "公式サイト：事前登録およびゲーム本編のお知らせ。",
+            "公式Xアカウント：告知ポストおよび短い更新通知。",
+            "公式Discord：参加後のコミュニティ告知。",
+            "公式YouTubeチャンネル：トレーラー、テクニカルデモ、OST、および今後の公式動画通知。"
+          ]
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "よくある",
+    "titleHighlight": "質問",
+    "subtitle": "Silent Whispersについて知っておくべきすべてのこと",
+    "questions": [
+      {
+        "question": "Silent Whispersとは？",
+        "answer": "Silent Whispersは、VVANNA STUDIOが開発しArchosaur Gamesがパブリッシングを行う、基本プレイ無料のシネマティック恋愛アドベンチャーゲームです。Unreal Engine 5を採用し、City of Fading Lightを舞台としています。"
+      },
+      {
+        "question": "Silent Whispersの対応プラットフォームは？",
+        "answer": "Silent WhispersはPC、iOS、Android向けに発表されています。正確なストアページ、クライアントのダウンロードリンク、およびシステム要件は、公式サイトやソーシャルチャンネルを通じて共有されます。"
+      },
+      {
+        "question": "Silent Whispersのリリース日は決まっていますか？",
+        "answer": "Silent Whispersの正確なリリース日はまだ発表されていません。現在、グローバル事前登録受付中であり、開始日は公式チャンネルを通じて確定されます。"
+      },
+      {
+        "question": "Silent Whispersのメインキャラクターは誰ですか？",
+        "answer": "Silent Whispersでは、Alarik、Theron、Valenの3人のメイン恋愛キャラクターが公開されています。各キャラクターはワールドプレミアPVに登場し、中国語、英語、日本語の公式ボイスクリップが用意されています。"
+      },
+      {
+        "question": "現在有効なSilent Whispersのギフトコードはありますか？",
+        "answer": "現在、公式チャンネルに掲載されている有効なSilent Whispersのギフトコードはありません。Sonnetの称号、スタミナ、Eclipse Coinsなどの事前登録特典は、ギフトコードとは別物です。"
+      },
+      {
+        "question": "Silent Whispersの事前登録方法は？",
+        "answer": "公式サイトの登録フォームからSilent Whispersの事前登録が可能です。事前登録を行うことで、ゲームの正式サービス開始時に配布される特典とお使いのアカウントが紐付けられます。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Silent Whispersを探索する準備はいいですか？",
+    "description": "DiscordのSilent Whispersコミュニティに参加して、攻略ガイドや最新情報、ディスカッションを楽しみましょう！",
+    "joinCommunity": "Discordに参加する",
+    "joinGame": "公式サイトで事前登録"
+  },
+  "footer": {
+    "title": "Silent Whispers Wiki",
+    "description": "Silent Whispersのキャラクター、リリース日、ストーリー、恋愛、探索、トレーラー、初心者向けガイドなどの情報を網羅したリソースハブです。",
+    "resources": "リソース",
+    "community": "コミュニティ",
+    "legal": "法的情報",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "youtube": "YouTube",
+    "website": "公式サイト",
+    "about": "このサイトについて",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "copyrightNotice": "著作権",
+    "copyright": "© 2026 Silent Whispers Wiki. Archosaur GamesおよびSilent Whispersの開発元とは関係ありません。",
+    "disclaimer": "非公式のファンによる情報リソースサイトです。"
+  },
+  "pages": {
+    "release": {
+      "title": "Silent Whispersの発売日と対応プラットフォーム",
+      "description": "UE5シネマティック恋愛アドベンチャー『Silent Whispers』の発売日、対応プラットフォーム、パブリッシャー、配信状況。",
+      "metaTitle": "Silent Whispersの発売日・プラットフォーム・パブリッシャー",
+      "metaDescription": "Silent Whispersの発売日、PC/iOS/Androidプラットフォーム、VVANNA STUDIOおよびArchosaur Gamesのクレジット、配信状況を追跡。",
+      "categoryLabel": "リリース情報",
+      "whatIs": "このセクションについて",
+      "whatIsDescription": "Silent Whispersの配信状況、対応プラットフォーム、開発元、パブリッシャー、各ストアの詳細を含むリリース情報。",
+      "why": "なぜリリース情報をチェックするのか？",
+      "whySteps": {
+        "step1Title": "対応プラットフォーム",
+        "step1Description": "Silent Whispersの対応機種を確認：PC、iOS、Android",
+        "step2Title": "配信状況",
+        "step2Description": "発表される公式発売日を追跡",
+        "step3Title": "公式ソース",
+        "step3Description": "最新のリリース情報を公式チャンネルでフォロー"
+      },
+      "featured": "おすすめ＆重要情報",
+      "all": "すべてのリリース記事"
+    },
+    "platforms": {
+      "title": "Silent Whispersのプラットフォーム",
+      "description": "Silent WhispersのPC、iOS、Androidへの対応、ストア状況、デバイスの詳細。",
+      "metaTitle": "Silent Whispers プラットフォーム - PC, iOS & Android",
+      "metaDescription": "PC、iOS、Androidを含むSilent Whispersのプラットフォーム情報、ストア状況、デバイスの互換性。",
+      "categoryLabel": "プラットフォーム",
+      "whatIs": "このセクションについて",
+      "whatIsDescription": "PC、iOS、Androidでのリリースおよび各バージョンの入手先を含む、Silent Whispersのプラットフォーム情報。",
+      "why": "なぜプラットフォームを確認するのか？",
+      "whySteps": {
+        "step1Title": "対応プラットフォーム",
+        "step1Description": "Silent WhispersはPC、iOS、Androidでリリース予定",
+        "step2Title": "ストア状況",
+        "step2Description": "公式ページ公開に合わせて各バージョンの配信場所を確認",
+        "step3Title": "デバイスの適合性",
+        "step3Description": "プレイスタイルに合ったデバイスを選びましょう"
+      },
+      "featured": "特集＆重要記事",
+      "all": "すべてのプラットフォーム記事"
+    },
+    "preregister": {
+      "title": "Silent Whispers 事前登録",
+      "description": "事前登録報酬、マイルストーン特典、Eclipse Coins、およびSilent Whispers公式サイトでの登録方法。",
+      "metaTitle": "Silent Whispers 事前登録 - 報酬＆Eclipse Coins",
+      "metaDescription": "Silent Whispersに事前登録してマイルストーン特典やEclipse Coinsを獲得しましょう。公式サイトでの登録方法も掲載しています。",
+      "categoryLabel": "事前登録",
+      "whatIs": "このセクションについて",
+      "whatIsDescription": "Silent Whispersの事前登録情報。マイルストーン特典やEclipse Coins、リリース前に先行特典を確保する方法などをご紹介します。",
+      "why": "なぜ事前登録するのか？",
+      "whySteps": {
+        "step1Title": "マイルストーン特典",
+        "step1Description": "事前登録の目標達成に応じて特典をアンロック",
+        "step2Title": "Eclipse Coins",
+        "step2Description": "リリース時にSilent Whispersで使用できるEclipse Coinsを獲得",
+        "step3Title": "先行登録",
+        "step3Description": "リリース前に公式サイトで登録を済ませましょう"
+      },
+      "featured": "特集＆重要記事",
+      "all": "すべての事前登録記事"
+    },
+    "characters": {
+      "title": "Silent Whispers キャラクター",
+      "description": "登場が決定しているSilent Whispersの男性キャラクター（Alarik、Theron、Valen）のプロフィール。ストーリーのトーンや対応音声言語の情報も掲載。",
+      "metaTitle": "Silent Whispers キャラクター - Alarik、Theron＆Valen",
+      "metaDescription": "Silent Whispersの恋愛対象キャラクターであるAlarik、Theron、Valenをご紹介。ストーリープロフィールや公式ボイスを掲載しています。",
+      "categoryLabel": "キャラクター",
+      "whatIs": "このセクションについて",
+      "whatIsDescription": "登場が決定しているSilent Whispersの3人の男性キャラクターのプロフィールと、City of Fading Lightにおける彼らの役割。",
+      "why": "なぜキャラクターガイドを読むのか？",
+      "whySteps": {
+        "step1Title": "主要キャラクターを知る",
+        "step1Description": "リリース前にAlarik、Theron、Valenについて知ろう",
+        "step2Title": "ストーリーのトーン",
+        "step2Description": "各キャラクターのイメージとテーマを理解する",
+        "step3Title": "ボイス言語",
+        "step3Description": "英語、日本語、韓国語のボイスクリップをチェック"
+      },
+      "featured": "特集＆重要記事",
+      "all": "すべてのキャラクター記事"
+    },
+    "voices": {
+      "title": "Silent Whispers 声優",
+      "description": "Silent Whispersにおける英語、日本語、韓国語のボイス言語オプション、決定キャスト、ボイスクリップの詳細。",
+      "metaTitle": "Silent Whispers 声優 - 英語・日本語・韓国語キャスト",
+      "metaDescription": "英語、日本語、韓国語のSilent Whispers声優情報。決定キャストやオーディオオプションなどを掲載。",
+      "categoryLabel": "声優キャスト",
+      "whatIs": "このセクションについて",
+      "whatIsDescription": "『Silent Whispers』のボイス情報を網羅。対応言語、出演決定キャスト、公式ボイスクリップの試聴方法などを紹介します。",
+      "why": "キャスト情報をチェックする理由",
+      "whySteps": {
+        "step1Title": "ボイス言語",
+        "step1Description": "『Silent Whispers』の英語、日本語、韓国語のボイス情報をチェック",
+        "step2Title": "キャスト情報",
+        "step2Description": "発表された出演決定キャストを随時チェック",
+        "step3Title": "音声オプション",
+        "step3Description": "プレイスタイルに合わせてボイス言語を切り替え"
+      },
+      "featured": "おすすめ＆必須情報",
+      "all": "すべてのキャスト関連記事"
+    },
+    "guide": {
+      "title": "Silent Whispers ガイド",
+      "description": "『Silent Whispers』のリリースに向けた、初心者向けガイド、ゲームシステムの特徴、役立つ攻略のヒント。",
+      "metaTitle": "Silent Whispers ガイド - 初心者向け＆プレイのコツ",
+      "metaDescription": "事前登録、対応プラットフォーム、キャラクター、ストーリー、ゲームシステム、公式情報チャンネルなど、『Silent Whispers』の基本を網羅した初心者向けガイド。",
+      "categoryLabel": "ゲームガイド",
+      "whatIs": "このセクションについて",
+      "whatIsDescription": "事前登録からゲーム性、公式チャンネルまで、『Silent Whispers』の判明している基本情報を網羅したガイド。",
+      "why": "ガイドを読む理由",
+      "whySteps": {
+        "step1Title": "スムーズなスタート",
+        "step1Description": "事前登録を済ませて、プレイするプラットフォームを選ぼう",
+        "step2Title": "ゲームシステムを理解する",
+        "step2Description": "判明している機能やシステムを理解しよう",
+        "step3Title": "最新情報を常にチェック",
+        "step3Description": "公式チャンネルをフォローしてリリース情報を入手しよう"
+      },
+      "featured": "おすすめ＆必須情報",
+      "all": "すべてのガイド"
+    }
   }
 }

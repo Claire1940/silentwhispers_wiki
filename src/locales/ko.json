@@ -1,10 +1,832 @@
 {
+  "seo": {
+    "home": {
+      "title": "사일런트 위스퍼 - 캐릭터, 출시일 및 가이드",
+      "description": "사일런트 위스퍼는 UE5 로맨스 게임의 출시일, 사전 예약, 캐릭터, 트레일러, 스토리, 플랫폼, 보상 및 초보자 가이드를 다룹니다.",
+      "keywords": "사일런트 위스퍼, PC, iOS, Android, 오토메, 출시일, 캐릭터, 가이드, 트레일러, 사전 예약",
+      "ogTitle": "사일런트 위스퍼 - 캐릭터, 출시일 및 가이드",
+      "ogDescription": "사일런트 위스퍼는 UE5 로맨스 게임의 출시일, 사전 예약, 캐릭터, 트레일러, 스토리, 플랫폼, 보상 및 초보자 가이드를 다룹니다.",
+      "twitterTitle": "사일런트 위스퍼 - 캐릭터, 출시일 및 가이드",
+      "twitterDescription": "사일런트 위스퍼는 UE5 시네마틱 연애 어드벤처의 출시일, 사전 예약, 캐릭터, 트레일러 및 가이드를 다룹니다."
+    }
+  },
   "nav": {
     "release": "출시",
     "platforms": "플랫폼",
-    "preregister": "사전예약",
+    "preregister": "사전 예약",
     "characters": "캐릭터",
     "voices": "성우",
     "guide": "가이드"
+  },
+  "common": {
+    "home": "홈",
+    "more": "더 보기",
+    "playNow": "지금 사전 예약하기",
+    "switchLanguage": "언어 변경",
+    "switchTheme": "테마 변경",
+    "lightMode": "라이트 모드",
+    "darkMode": "다크 모드",
+    "notFound": "페이지를 찾을 수 없습니다",
+    "notFoundDescription": "찾으시는 페이지가 존재하지 않습니다.",
+    "backToHome": "홈으로 돌아가기",
+    "relatedArticles": "관련 기사",
+    "readMore": "자세히 보기",
+    "articlesComingSoon": "관련 글 준비 중"
+  },
+  "hero": {
+    "badge": "UE5 시네마틱 연애 어드벤처",
+    "title": "사일런트 위스퍼 위키",
+    "description": "스러져가는 빛의 도시를 배경으로 로맨스, 타임루프 생존 선택, 도시 탐험, 캐릭터, 트레일러, 사전 예약 보상을 다루는 무료 플레이 UE5 시네마틱 연애 어드벤처 사일런트 위스퍼를 탐험해 보세요.",
+    "getFreeCodesCTA": "사전 예약 보상",
+    "playOnSteamCTA": "공식 사이트에서 사전 예약하기",
+    "stats": {
+      "stat1": {
+        "value": "추후 공개",
+        "label": "출시일"
+      },
+      "stat2": {
+        "value": "PC / iOS / Android",
+        "label": "플랫폼"
+      },
+      "stat3": {
+        "value": "3",
+        "label": "공개된 캐릭터"
+      },
+      "stat4": {
+        "value": "UE5",
+        "label": "게임 엔진"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "사일런트 위스퍼 게임플레이",
+    "description": "PC, iOS, Android용 UE5 연애 어드벤처 게임에서 시네마틱 로맨스, 1인칭 상호작용, 자유로운 도시 탐험, 시간 루프 생존을 경험해 보세요."
+  },
+  "tools": {
+    "title": "사일런트 위스퍼",
+    "titleHighlight": "가이드 허브",
+    "subtitle": "사일런트 위스퍼의 출시, 캐릭터, 스토리, 보상에 대해 알아야 할 모든 것",
+    "cards": [
+      {
+        "icon": "Calendar",
+        "title": "사일런트 위스퍼 출시일",
+        "description": "플랫폼, 퍼블리셔, 엔진 및 출시 상태"
+      },
+      {
+        "icon": "Gift",
+        "title": "사일런트 위스퍼 사전 예약",
+        "description": "출시 보상 및 사전 예약 방법"
+      },
+      {
+        "icon": "Users",
+        "title": "사일런트 위스퍼 캐릭터",
+        "description": "공개된 3명의 남성 주인공과 그들의 역할"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "사일런트 위스퍼 게임플레이",
+        "description": "핵심 기능, 탐험 및 로맨스 시스템"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "사일런트 위스퍼 초보자 가이드",
+        "description": "공개된 기본 정보는 여기에서 확인하세요"
+      },
+      {
+        "icon": "BookMarked",
+        "title": "사일런트 위스퍼 스토리",
+        "description": "바래가는 빛의 도시, 시간 루프 및 생존"
+      },
+      {
+        "icon": "Film",
+        "title": "사일런트 위스퍼 트레일러",
+        "description": "PV, 실시간 테크 데모 및 OST 영상"
+      },
+      {
+        "icon": "Ticket",
+        "title": "사일런트 위스퍼 쿠폰 코드",
+        "description": "선물 코드 및 사용 상태 추적기"
+      }
+    ]
+  },
+  "modules": {
+    "silentWhispersReleaseDateAndPlatforms": {
+      "title": "사일런트 위스퍼 출시일, 플랫폼 및 퍼블리셔",
+      "displayType": "info-cards",
+      "intro": "출시 상태, 확정 플랫폼, 개발사, 퍼블리셔, 공식 스토어 상세 정보를 포함한 사일런트 위스퍼의 핵심 출시 정보를 확인해 보세요. 본 게임은 글로벌 출시가 발표되었으며, 자세한 출시 정보는 추후 공식 채널을 통해 공개될 예정입니다.",
+      "items": [
+        {
+          "icon": "BadgeCheck",
+          "label": "출시 상태",
+          "value": "발표됨",
+          "details": "사일런트 위스퍼는 출시 예정인 무료 플레이 시네마틱 연애 어드벤처 게임으로 발표되었습니다."
+        },
+        {
+          "icon": "Calendar",
+          "label": "출시일",
+          "value": "추후 공개",
+          "details": "PC, iOS, Android의 정확한 글로벌 출시일은 공식 채널을 통해 확정될 예정입니다."
+        },
+        {
+          "icon": "Monitor",
+          "label": "확정 플랫폼",
+          "value": "PC, iOS, Android",
+          "details": "공식 발표에 따르면 PC, iOS, Android가 대상 플랫폼으로 명시되어 있습니다."
+        },
+        {
+          "icon": "코드",
+          "label": "개발사",
+          "value": "VVANNA STUDIO",
+          "details": "VVANNA STUDIO는 사일런트 위스퍼를 개발 중인 개발 스튜디오입니다."
+        },
+        {
+          "icon": "Building2",
+          "label": "퍼블리셔",
+          "value": "Archosaur Games",
+          "details": "Archosaur Games는 사일런트 위스퍼를 퍼블리싱하며 공식 웹사이트를 운영합니다."
+        },
+        {
+          "icon": "코인",
+          "label": "비즈니스 모델",
+          "value": "부분 유료화",
+          "details": "사일런트 위스퍼는 부분 유료화 게임이며, 유료 시스템 및 콘텐츠 상세 내용은 출시 시점에 맞춰 공개될 예정입니다."
+        },
+        {
+          "icon": "CPU",
+          "label": "엔진",
+          "value": "Unreal Engine 5",
+          "details": "이 게임은 시네마틱한 비주얼 연출을 위해 Unreal Engine 5를 사용합니다."
+        },
+        {
+          "icon": "쇼핑백",
+          "label": "스토어",
+          "value": "공식 사전 예약 사이트",
+          "details": "공식 웹사이트에서 사전 예약이 진행 중입니다. App Store, Google Play 및 PC 클라이언트 페이지는 공개되는 대로 링크될 예정입니다."
+        }
+      ]
+    },
+    "silentWhispersPreRegistrationRewards": {
+      "title": "사일런트 위스퍼 사전 예약 보상",
+      "displayType": "보상 카드",
+      "intro": "공식 사일런트 위스퍼 웹사이트를 통해 글로벌 사전 예약이 진행 중입니다. 예약한 플레이어에게는 아바타 칭호 '소네트', 테론 관련 이벤트 보상, 스태미나 및 이클립스 코인 등 출시 보상이 지급됩니다.",
+      "items": [
+        {
+          "icon": "글로브",
+          "name": "공식 사전 예약",
+          "type": "예약 포털",
+          "amount": "오픈",
+          "description": "플레이어는 공식 사일런트 위스퍼 웹사이트의 등록 양식을 통해 사전 예약을 할 수 있습니다.",
+          "claim_context": "출시 보상은 서비스 시작 후 게임 내에서 지급될 예정입니다."
+        },
+        {
+          "icon": "보상",
+          "name": "소네트",
+          "type": "아바타 칭호",
+          "amount": "칭호 1개",
+          "description": "소네트는 사전 예약 아바타 칭호 보상으로 명시되어 있습니다.",
+          "claim_context": "사전 예약 플레이어를 위한 출시 보상 세트에 포함되어 있습니다."
+        },
+        {
+          "icon": "하트",
+          "name": "테론 이벤트 보상",
+          "type": "이벤트 보상",
+          "amount": "이벤트 보상 1개",
+          "description": "사전 등록 보상의 일환으로 테론 관련 이벤트 보상인 \"딱히 널 위해 포즈를 취하는 건 아니야.\"가 포함되어 있습니다.",
+          "claim_context": "테론 및 사전 등록 보상 캠페인과 연결되어 있습니다."
+        },
+        {
+          "icon": "번개",
+          "name": "스태미나",
+          "type": "게임플레이 리소스",
+          "amount": "99",
+          "description": "스태미나가 사전 등록 보상 번들의 일부로 나열되어 있습니다.",
+          "claim_context": "게임 출시 후 게임 초반 리소스로 유용합니다."
+        },
+        {
+          "icon": "CircleDollarSign",
+          "name": "이클립스 코인",
+          "type": "재화",
+          "amount": "19,999",
+          "description": "이클립스 코인이 사전 등록 번들의 주요 재화 보상으로 나열되어 있습니다.",
+          "claim_context": "사전 등록을 한 플레이어를 위한 출시 보상에 포함되어 있습니다."
+        }
+      ]
+    },
+    "silentWhispersCharacters": {
+      "title": "Silent Whispers의 주요 캐릭터들을 만나보세요",
+      "displayType": "character-cards",
+      "intro": "Silent Whispers는 지금까지 세 명의 주요 연애 대상 캐릭터인 알라릭, 테론, 발렌을 공개했습니다. 각 캐릭터는 공식 소개글, PV 출연, 다국어 음성 클립을 통해 소개됩니다.",
+      "items": [
+        {
+          "icon": "왕관",
+          "name": "알라릭",
+          "role": "주요 연애 캐릭터",
+          "story_profile": "알라릭은 일반적인 규칙 위에 군림하며 지배, 통제, 영원과 연결된, 압도적인 권위와 힘을 가진 인물로 묘사됩니다.",
+          "voice_info": "공식 캐릭터 음성 클립은 중국어, 영어, 일본어로 감상할 수 있습니다.",
+          "known_from": "공식 웹사이트, 월드 프리미어 PV, 실시간 게임플레이 테크 데모"
+        },
+        {
+          "icon": "검",
+          "name": "테론",
+          "role": "주요 연애 캐릭터",
+          "story_profile": "테론은 질서, 칼날, 그림자, 운명에 가까운 위험한 인물로 그려지며, 일반적인 연애 설정이 처음에 암시하는 것보다 더 날카롭고 갈등이 가득한 분위기를 풍깁니다.",
+          "voice_info": "공식 캐릭터 음성 클립은 중국어, 영어, 일본어로 감상할 수 있습니다.",
+          "known_from": "공식 웹사이트, 월드 프리미어 PV, 사전 등록 보상 캠페인"
+        },
+        {
+          "icon": "눈송이",
+          "name": "발렌",
+          "role": "주요 연애 캐릭터",
+          "story_profile": "발렌은 얼음, 눈, 순수함, 절제, 운명과 연관되어 있어, 공개된 세 명의 주인공 중 가장 차갑고 신비로운 이미지를 보여줍니다.",
+          "voice_info": "공식 캐릭터 음성 클립은 중국어, 영어, 일본어로 감상할 수 있습니다.",
+          "known_from": "공식 웹사이트, 월드 프리미어 PV, 실시간 게임플레이 테크 데모"
+        }
+      ]
+    },
+    "silentWhispersGameplayAndFeatures": {
+      "title": "Silent Whispers 게임플레이 및 핵심 특징",
+      "displayType": "feature-grid",
+      "intro": "Silent Whispers는 시네마틱 로맨스, 1인칭 상호작용, 자유로운 도시 탐험, 타임루프 스토리텔링, 데이트, 그리고 위험한 생존 선택을 결합한 게임입니다. 대외적으로 공개된 게임플레이의 정체성은 스토리 중심이며, 빛이 바래가는 도시 안에서의 감정적인 캐릭터 상호작용과 선택을 중심으로 구축되었습니다.",
+      "items": [
+        {
+          "icon": "슬레이트",
+          "name": "시네마틱 4K 비주얼",
+          "category": "비주얼 프레젠테이션",
+          "description": "Silent Whispers는 언리얼 엔진 5를 사용하여 고퀄리티 3D 캐릭터, 도시 배경, 조명, 시네마틱 로맨스 모먼트를 선보입니다."
+        },
+        {
+          "icon": "눈",
+          "name": "1인칭 상호작용",
+          "category": "캐릭터 상호작용",
+          "description": "이 게임은 플레이어가 클로즈업 시점과 직접적인 상호작용을 통해 캐릭터의 장면을 경험하는 친밀한 1인칭 모먼트를 강조합니다."
+        },
+        {
+          "icon": "지도",
+          "name": "자유로운 도시 탐색",
+          "category": "탐색",
+          "description": "플레이어는 카페, 공중 정거장, 관람차, 일상적인 도시 일과가 어우러진 City of Fading Light를 탐색하게 됩니다."
+        },
+        {
+          "icon": "하트",
+          "name": "로맨틱 데이트",
+          "category": "관계 콘텐츠",
+          "description": "Silent Whispers는 핵심 판타지의 일부로 공개된 남주인공들과의 데이트 및 일상적인 로맨틱한 만남을 포함합니다."
+        },
+        {
+          "icon": "시계 방향 회전",
+          "name": "타임 루프 서사",
+          "category": "스토리 구조",
+          "description": "이야기는 선택, 생존, 그리고 반복되는 시도가 도시에서의 여정을 결정짓는 타임 루프 설정을 기반으로 합니다."
+        },
+        {
+          "icon": "해골",
+          "name": "위험한 게임",
+          "category": "서바이벌 드라마",
+          "description": "로맨스를 넘어, 이 게임은 플레이어를 생존과 배신, 그리고 어려운 결정이 따르는 위험천만한 게임 속으로 안내합니다."
+        },
+        {
+          "icon": "달",
+          "name": "스러져가는 빛의 도시",
+          "category": "세계관 설정",
+          "description": "주요 배경은 겉보기엔 익숙해 보이지만, 평범한 도시의 이면에 환상과 위험, 그리고 기묘한 규칙이 숨겨진 판타지 대도시입니다."
+        },
+        {
+          "icon": "스마트폰",
+          "name": "크로스 플랫폼 비주얼 포커스",
+          "category": "기술",
+          "description": "개발팀은 캐릭터 표현을 최우선 기술 과제로 삼아 PC와 모바일의 비주얼 밸런스에 대해 논의해 왔습니다."
+        }
+      ]
+    },
+    "silentWhispersBeginnerGuide": {
+      "title": "Silent Whispers 초보자 가이드",
+      "displayType": "단계별 안내",
+      "intro": "사전 예약, 플랫폼, 스토리 설정, 캐릭터, 게임플레이 특징 및 공식 업데이트 채널 등 Silent Whispers의 확정된 기본 정보를 여기서 확인하세요. Silent Whispers는 Archosaur Games와 VVANNA STUDIO가 제작한 무료 시네마틱 로맨스 어드벤처 게임으로, PC, iOS, Android용 언리얼 엔진 5로 개발되었습니다. 일상적인 로맨스, 자유로운 탐색, 1인칭 상호작용, 서바이벌 게임, 배신, 그리고 타임 루프 서사가 어우러진 City of Fading Light를 배경으로 합니다.",
+      "steps": [
+        {
+          "icon": "캘린더플러스",
+          "title": "공식 사이트를 통한 사전 예약",
+          "summary": "글로벌 사전 예약을 위한 공식 창구로 Silent Whispers 공식 웹사이트를 활용하세요.",
+          "details": [
+            "공식 사이트는 사전 예약을 위한 가장 안전한 경로입니다.",
+            "발표된 PC, iOS 및 Android 출시에 대한 사전 예약이 진행 중입니다.",
+            "웹사이트의 이메일 인증은 계정 또는 사전 예약 확인용이며, 기프트 코드 사용 시스템이 아닙니다."
+          ]
+        },
+        {
+          "icon": "모니터",
+          "title": "대상 플랫폼 선택",
+          "summary": "Silent Whispers는 PC, iOS, Android용으로 발표되었습니다.",
+          "details": [
+            "PC, iOS, Android가 확정된 플랫폼입니다.",
+            "스토어 페이지, 클라이언트 다운로드 링크, 시스템 요구 사항 및 최종 출시 빌드 세부 정보는 공식 채널을 통해 안내될 예정입니다.",
+            "플랫폼별 다운로드 업데이트는 공식 사이트와 소셜 채널을 팔로우하여 확인하세요."
+          ]
+        },
+        {
+          "icon": "사용자",
+          "title": "확정된 세 명의 남자 주인공 알아보기",
+          "summary": "첫 번째로 확정된 공략 캐릭터는 Alarik, Theron, Valen입니다.",
+          "details": [
+            "Alarik은 규칙과 평범한 법 위에 군림하는 강력한 인물로 묘사됩니다.",
+            "Theron은 질서의 경계에 선 날카로운 그림자이자 운명의 포로로 묘사됩니다.",
+            "Valen은 순수함, 얼음, 눈, 그리고 운명의 무게를 짊어진 캐릭터 이미지와 연관되어 있습니다."
+          ]
+        },
+        {
+          "icon": "지도",
+          "title": "세계관 설정 이해하기",
+          "summary": "이야기는 일상 속에 위험한 게임이 숨겨진 판타지 대도시인 '빛이 바랜 도시'를 배경으로 합니다.",
+          "details": [
+            "도시에는 카페, 공중 정거장, 관람차와 같은 친숙한 일상 공간이 포함되어 있습니다.",
+            "플레이어가 생존 시나리오에 휘말리면서 환상과 현실의 경계가 흐려집니다.",
+            "서사는 선택과 두 번째 기회에 연결된 타임루프 구조를 사용합니다."
+          ]
+        },
+        {
+          "icon": "게임패드2",
+          "title": "확정된 게임플레이 방향 알아보기",
+          "summary": "공개된 기능 세트는 시네마틱 4K 비주얼, 1인칭 상호작용, 도시 탐험 및 로맨스 중심의 선택에 초점을 맞추고 있습니다.",
+          "details": [
+            "이 게임은 Unreal Engine 5로 제작되었습니다.",
+            "확정된 기능에는 친밀한 1인칭 상호작용과 자유로운 도시 탐험이 포함됩니다.",
+            "공개된 자료들은 전투 중심의 RPG 형식이 아닌 시네마틱 연애 어드벤처 형식을 보여줍니다."
+          ]
+        },
+        {
+          "icon": "벨",
+          "title": "공식 업데이트만 확인하세요",
+          "summary": "출시 뉴스, 비디오 및 이벤트 공지는 공식 웹사이트, YouTube 채널, X 계정 및 Discord 초대를 이용하세요.",
+          "details": [
+            "공식 YouTube 채널에는 월드 프리미어 PV, 실시간 게임플레이 테크 데모, OST 영상, 그리고 추후 공개될 숏폼 데모 게시물이 업로드됩니다.",
+            "공식 X 계정에서 사전 예약 및 테크 데모 업데이트를 공유했습니다.",
+            "Discord는 Silent Whispers 공개 자료에서 연결되는 공식 커뮤니티 진입점입니다."
+          ]
+        }
+      ],
+      "quickTips": [
+        "공식 사이트를 통한 사전 예약이 출시 보상을 확보하는 주요 방법입니다.",
+        "PC, iOS, Android가 확정된 플랫폼이며, 정확한 스토어 페이지는 추후 안내될 예정입니다.",
+        "이 게임은 Unreal Engine 5를 기반으로 제작된 스토리 중심의 시네마틱 연애 어드벤처입니다.",
+        "뉴스, 비디오 및 보상 업데이트는 Silent Whispers 공식 채널만 이용해 주세요."
+      ]
+    },
+    "silentWhispersStoryAndWorld": {
+      "title": "Silent Whispers 스토리 및 세계관",
+      "displayType": "로어 카드",
+      "intro": "'빛이 바랜 도시', 현실과 환상의 흐릿한 경계, 그리고 Silent Whispers의 중심에 있는 생존 기반의 로맨스를 탐험하세요. 이 세계는 평범한 일상, 데이트, 도시 탐험이 위험한 게임, 생존을 위한 선택, 배신, 그리고 타임루프의 결과와 충돌하는 판타지 대도시 속에서 로맨스를 그려냅니다. 정서적 친밀감, 시네마틱한 사실감, 그리고 두 번째 기회의 가치에 대한 질문을 중심으로 구축되었습니다.",
+      "items": [
+        {
+          "icon": "달",
+          "title": "빛이 바랜 도시",
+          "category": "세계",
+          "summary": "주 배경은 겉보기에는 익숙해 보이지만 그 아래에 숨겨진 위협을 품고 있는 판타지 대도시입니다.",
+          "details": [
+            "도시는 카페, 공중 정류장, 노을빛 속의 대관람차와 같은 일상적인 공간들을 통해 묘사됩니다.",
+            "이곳은 잠재적인 피난처인 동시에 생존이 걸린 장소로 설정되어 있습니다.",
+            "이 도시는 일상적인 로맨스와 위험한 게임 같은 시련 사이의 대비를 보여줍니다."
+          ]
+        },
+        {
+          "icon": "반짝임",
+          "title": "현실과 환상",
+          "category": "핵심 테마",
+          "summary": "이야기는 환상과 현실의 경계가 흐려지기 시작하는 세계에서 시작됩니다.",
+          "details": [
+            "플레이어는 빛과 그림자로 이루어진 미로 같은 도시로 발을 들여놓습니다.",
+            "이 전제는 감정적인 친밀함과 더 거대한 생존의 미스터리를 연결합니다.",
+            "공개된 스토리 자료들은 단순한 일상 로맨스가 아닌, 세계관 내부의 불확실성을 강조합니다."
+          ]
+        },
+        {
+          "icon": "하트",
+          "title": "일상 로맨스",
+          "category": "로맨스",
+          "summary": "Silent Whispers는 남주인공들과의 일상적인 루틴, 데이트, 그리고 소소하고 평범한 순간들을 포함하고 있습니다.",
+          "details": [
+            "게임은 살아 숨 쉬는 도시에서 시간을 보내는 것을 강조합니다.",
+            "로맨틱한 장면들은 1인칭 시점의 친밀함 및 시네마틱한 연출과 결합됩니다.",
+            "공식 특징 목록에서는 로맨스를 운명 및 반복되는 만남과 연결된 것으로 표현합니다."
+          ]
+        },
+        {
+          "icon": "해골",
+          "title": "위험한 게임",
+          "category": "갈등",
+          "summary": "로맨스 구도는 생존과 배신에 대한 선택을 강요하는 위험천만한 게임들로 인해 방해를 받습니다.",
+          "details": [
+            "플레이어는 차례차례 이어지는 위험한 게임 속으로 끌려 들어갑니다.",
+            "생존과 배신은 공식 스토리 구성의 일부입니다.",
+            "게임은 이러한 시련을 통해 로맨틱한 선택에 더욱 어둡고 위험 부담이 큰 배경을 부여합니다."
+          ]
+        },
+        {
+          "icon": "시계 방향 회전",
+          "title": "타임루프 서사",
+          "category": "서사 장치",
+          "summary": "타임루프는 스토리 구조의 확정된 일부이며, 플레이어의 다음 버전을 위한 선택과 연결되어 있습니다.",
+          "details": [
+            "공식 특징 목록에서는 타임루프 서사를 직접적으로 언급합니다.",
+            "이 전제는 플레이어가 또 다른 기회를 위해 무엇을 걸 수 있는지 질문합니다.",
+            "공개된 프리뷰들은 이 루프를 반복되는 삶 속에서 더 나은 선택을 하는 것과 연결 짓습니다."
+          ]
+        },
+        {
+          "icon": "왕관",
+          "title": "알라릭",
+          "category": "캐릭터",
+          "summary": "알라릭은 확정된 세 명의 남주인공 중 한 명으로, 압도적인 힘과 규칙을 깨부수는 권력을 지닌 인물로 묘사됩니다.",
+          "details": [
+            "그의 프로필은 그를 규칙 위에 군림하는 인물로 소개합니다.",
+            "그의 캐릭터 이미지는 통제, 힘, 그리고 압도적인 존재감과 연결되어 있습니다.",
+            "그는 공개된 PV 및 테크 데모 자료에 등장합니다."
+          ]
+        },
+        {
+          "icon": "검",
+          "title": "테론",
+          "category": "캐릭터",
+          "summary": "테론은 확정된 세 명의 남주인공 중 한 명으로 그림자, 질서, 날카로움, 그리고 운명과 연관되어 있습니다.",
+          "details": [
+            "그의 공식 프로필은 그를 질서의 경계에 서 있는 칼날 같은 인물로 묘사합니다.",
+            "사전 예약 보상은 \"딱히 널 위해 포즈를 취하는 건 아냐\"라는 이름의 테론 이벤트와 연결되어 있습니다.",
+            "그는 공식 공개 자료와 공개 프리뷰 보도 전반에 걸쳐 등장합니다."
+          ]
+        },
+        {
+          "icon": "눈송이",
+          "title": "발렌",
+          "category": "캐릭터",
+          "summary": "발렌은 확정된 세 명의 남주인공 중 한 명으로 얼음, 눈, 순수함, 그리고 운명의 이미지와 함께 제시됩니다.",
+          "details": [
+            "그의 공식 프로필은 그를 얼음과 눈의 이미지와 연결합니다.",
+            "프리뷰 보도에 따르면 월드 프리미어 PV는 발렌과 루프 설정 사이의 강력한 연결 고리를 암시합니다.",
+            "그는 첫 번째로 확정된 로맨스 공략 라인업의 일부입니다."
+          ]
+        }
+      ]
+    },
+    "silentWhispersTrailersAndTechDemo": {
+      "title": "Silent Whispers 트레일러 및 테크 데모",
+      "displayType": "비디오 갤러리",
+      "intro": "Silent Whispers 공식 영상은 City of Fading Light, 확정된 세 명의 남주인공, 시네마틱 UE5 비주얼 연출, 1인칭 상호작용 방식, 그리고 게임의 음악적 톤을 소개합니다. 각 공식 업로드 영상은 공개 자료에서 발췌한 구체적인 스토리, 캐릭터 및 비주얼 상세 정보를 확인해 줍니다.",
+      "items": [
+        {
+          "icon": "슬레이트",
+          "title": "Silent Whispers - 월드 프리미어 PV",
+          "type": "월드 프리미어 PV",
+          "url": "https://www.youtube.com/watch?v=JMXLe7YUDeE",
+          "runtime": "공식 YouTube 영상",
+          "tags": [
+            "공개",
+            "스토리",
+            "캐릭터",
+            "UE5"
+          ],
+          "confirms": [
+            "Silent Whispers의 핵심 설정을 소개합니다.",
+            "City of Fading Light의 분위기를 보여줍니다.",
+            "확정된 세 명의 남주인공인 알라릭, 테론, 발렌을 소개합니다.",
+            "로맨스, 위험, 그리고 타임루프 구성을 연결합니다."
+          ]
+        },
+        {
+          "icon": "게임패드2",
+          "title": "Silent Whispers 실시간 게임플레이 테크 데모",
+          "type": "실시간 게임플레이 테크 데모",
+          "url": "https://www.youtube.com/watch?v=px9OBqvs9w4",
+          "runtime": "공식 YouTube 영상",
+          "tags": [
+            "테크 데모",
+            "UE5",
+            "인엔진",
+            "1인칭"
+          ],
+          "confirms": [
+            "Unreal Engine 5 실시간 렌더링을 강조합니다.",
+            "클로즈업된 캐릭터의 사실감, 피부 디테일, 의상 디테일, 그리고 시네마틱 카메라 워크를 보여줍니다.",
+            "1인칭 로맨틱 상호작용 장면의 시각적 연출 방향을 보여줍니다.",
+            "공식 소셜 게시글은 해당 테크 데모 영상이 인엔진에서 캡처된 것이라고 설명합니다."
+          ]
+        },
+        {
+          "icon": "음악",
+          "title": "Silent Whispers 오리지널 사운드트랙 Vol. 1 - Illuminated Whispers",
+          "type": "OST 영상",
+          "url": "https://www.youtube.com/watch?v=K81o-aD0hUo",
+          "runtime": "공식 유튜브 영상",
+          "tags": [
+            "OST",
+            "음악",
+            "분위기",
+            "인엔진 데모"
+          ],
+          "confirms": [
+            "Silent Whispers의 음악 방향성을 소개합니다.",
+            "첫 번째 오리지널 사운드트랙 발매작의 타이틀로 \"Illuminated Whispers\"를 사용합니다.",
+            "공식 게시글은 이 앨범을 인엔진 테크 데모의 오리지널 음악으로 설명합니다.",
+            "게임의 감성적이고 시네마틱한 로맨스 톤을 뒷받침합니다."
+          ]
+        },
+        {
+          "icon": "PlayCircle",
+          "title": "Silent Whispers 공식 유튜브 채널",
+          "type": "공식 채널",
+          "url": "https://www.youtube.com/@SilentWhispersEN",
+          "runtime": "공식 채널 페이지",
+          "tags": [
+            "PV",
+            "테크 데모",
+            "쇼츠",
+            "OST"
+          ],
+          "confirms": [
+            "공식 영어 영상 업로드본을 한곳에 모아둡니다.",
+            "공개 영상, 테크 데모 콘텐츠, OST 콘텐츠 및 추후 공개된 숏폼 데모 게시글을 포함합니다.",
+            "출시 전 신규 트레일러를 추적하는 데 유용합니다."
+          ]
+        },
+        {
+          "icon": "Eye",
+          "title": "Silent Whispers 버즈아이 뷰 테크 데모",
+          "type": "짧은 테크 데모",
+          "url": "https://www.youtube.com/@SilentWhispersEN/shorts",
+          "runtime": "공식 유튜브 쇼츠 페이지",
+          "tags": [
+            "쇼츠",
+            "테크 데모",
+            "UE5",
+            "환경"
+          ],
+          "confirms": [
+            "공식 소셜 게시글은 이를 실시간 렌더링된 버즈아이 뷰 테크 데모로 설명합니다.",
+            "숏폼 형식은 메인 PV 및 전체 테크 데모 외에 추가적인 비주얼 쇼케이스를 위해 사용됩니다.",
+            "새로운 비주얼 시연을 위한 간결한 업데이트 피드 역할을 합니다."
+          ]
+        }
+      ]
+    },
+    "silentWhispersCodesAndRedeemStatus": {
+      "title": "Silent Whispers 코드 및 교환 상태",
+      "displayType": "코드 상태 카드",
+      "intro": "Silent Whispers의 공식 기프트 코드 유무, 사전 예약과 교환 상태의 차이점, 코드 소식 확인처를 확인하세요. Silent Whispers는 글로벌 사전 예약과 사전 예약 보상을 확정했지만, 공식 공개 자료에는 아직 활성화된 기프트 코드 교환 시스템이 나타나지 않았으므로 웹사이트 이메일 인증, 사전 예약 보상, 실제 교환 코드를 구분해서 관리해야 합니다.",
+      "items": [
+        {
+          "icon": "티켓",
+          "title": "활성화된 Silent Whispers 코드",
+          "status": "활성화된 공식 기프트 코드 없음",
+          "code": "없음",
+          "reward": "없음",
+          "expires": "만료 기한 표시 없음",
+          "details": [
+            "공식 웹사이트, 공식 YouTube 채널, 공식 X 계정 또는 Discord 초대 페이지 자료에 Silent Whispers 전용 교환 코드가 나열되어 있지 않습니다.",
+            "사전 예약 보상은 기프트 코드가 아닙니다.",
+            "이 카드는 Silent Whispers 공식 채널에서 실제 교환 코드를 게시할 때만 변경됩니다."
+          ]
+        },
+        {
+          "icon": "스캔라인",
+          "title": "공식 교환 시스템",
+          "status": "교환 메뉴 미오픈",
+          "code": "해당 없음",
+          "reward": "해당 없음",
+          "expires": "해당 없음",
+          "details": [
+            "공개된 공식 페이지에는 아직 Silent Whispers 전용 코드 교환 페이지나 게임 내 교환 메뉴가 표시되지 않습니다.",
+            "게임이 아직 정식 출시되지 않았으므로, 현재 공개된 자료에서는 일반적인 게임 내 교환 절차를 이용할 수 없습니다.",
+            "향후 코드 입력 안내는 Silent Whispers 공식 공지사항만 확인해 주세요."
+          ]
+        },
+        {
+          "icon": "메일 확인",
+          "title": "웹사이트 이메일 인증",
+          "status": "기프트 코드 아님",
+          "code": "인증 코드 전용",
+          "reward": "직접적인 아이템 보상 없음",
+          "expires": "세션 기반 인증",
+          "details": [
+            "웹사이트 등록 또는 계정 확인 중에 사용되는 인증 코드는 등록 절차 확인용일 뿐입니다.",
+            "이를 Silent Whispers 보상 코드로 간주해서는 안 됩니다.",
+            "이메일 인증 코드는 비밀로 유지하고 공식 웹사이트에서만 사용하세요."
+          ]
+        },
+        {
+          "icon": "선물",
+          "title": "사전 예약 보상",
+          "status": "확정된 보상 카테고리",
+          "code": "공개 페이지에서 코드 불필요",
+          "reward": "Sonnet 아바타 칭호, Theron 이벤트, 스태미나 99개, 19,999 Eclipse Coins",
+          "expires": "출시 시점의 보상 수령 타이밍은 공식 출시 안내를 따릅니다.",
+          "details": [
+            "공개된 정보에 따르면 Sonnet 아바타 칭호가 사전 예약 보상으로 포함되어 있습니다.",
+            "\"널 위해서 포즈를 취하는 건 아니야(It's not like I'm posing for you.)\"라는 이름의 Theron 관련 이벤트가 사전 예약 보상 세트에 포함되어 있습니다.",
+            "출시 사전 예약을 완료한 플레이어를 위한 보상으로 스태미나 99개와 19,999 Eclipse Coins가 나열되어 있습니다."
+          ]
+        },
+        {
+          "icon": "경고 삼각형",
+          "title": "잘못된 게임 코드 경고",
+          "status": "관련 없는 Whispers 코드를 사용하지 마십시오",
+          "code": "Silent Whispers 코드가 아닙니다",
+          "reward": "Silent Whispers에 유효하지 않습니다",
+          "expires": "해당 없음",
+          "details": [
+            "\"Whispers\"라는 단어를 사용하는 다른 게임의 코드는 Silent Whispers 코드가 아닙니다.",
+            "Silent Whispers는 Archosaur Games에서 퍼블리싱하고 VVANNA STUDIO에서 개발했습니다. 코드 출처는 공식 Silent Whispers 채널과 일치해야 합니다.",
+            "Silent Whispers와 관련 없는 인터랙티브 스토리 코드 목록이 섞여 있는 페이지를 피하십시오."
+          ]
+        },
+        {
+          "icon": "메가폰",
+          "title": "주목해야 할 공식 코드 출처",
+          "status": "공식 채널 전용",
+          "code": "공식 출시 대기 중",
+          "reward": "공식 출시 대기 중",
+          "expires": "공식 출시 대기 중",
+          "details": [
+            "공식 웹사이트: 사전 예약 및 주요 게임 공지사항.",
+            "공식 X 계정: 공지 포스트 및 짧은 업데이트 소식.",
+            "공식 Discord: 가입 후 커뮤니티 공지사항.",
+            "공식 YouTube 채널: 트레일러, 기술 데모, OST 및 향후 공식 영상 공지."
+          ]
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "자주 묻는",
+    "titleHighlight": "질문",
+    "subtitle": "Silent Whispers에 대해 알아야 할 모든 것",
+    "questions": [
+      {
+        "question": "Silent Whispers는 무엇인가요?",
+        "answer": "Silent Whispers는 VVANNA STUDIO가 개발하고 Archosaur Games가 퍼블리싱하는 무료 시네마틱 연애 어드벤처 게임으로, Unreal Engine 5로 제작되었으며 City of Fading Light를 배경으로 합니다."
+      },
+      {
+        "question": "Silent Whispers는 어떤 플랫폼으로 출시되나요?",
+        "answer": "Silent Whispers는 PC, iOS, Android용으로 발표되었습니다. 정확한 스토어 페이지, 클라이언트 다운로드 링크 및 시스템 요구 사양은 공식 웹사이트와 소셜 채널을 통해 공유될 예정입니다."
+      },
+      {
+        "question": "Silent Whispers의 출시일이 정해졌나요?",
+        "answer": "Silent Whispers의 정확한 출시일은 아직 발표되지 않았습니다. 현재 글로벌 사전 예약 중이며, 출시일은 공식 채널을 통해 확정될 예정입니다."
+      },
+      {
+        "question": "Silent Whispers의 주요 캐릭터는 누구인가요?",
+        "answer": "Silent Whispers는 세 명의 주요 공략 캐릭터인 Alarik, Theron, Valen을 공개했습니다. 각 캐릭터는 월드 프리미어 PV에 등장하며 중국어, 영어, 일본어 공식 보이스 클립이 제공됩니다."
+      },
+      {
+        "question": "현재 사용 가능한 Silent Whispers 선물 코드가 있나요?",
+        "answer": "현재 공식 채널에 등록된 활성 Silent Whispers 선물 코드는 없습니다. Sonnet 칭호, 스태미나, Eclipse Coins와 같은 사전 예약 보상은 선물 코드와 별개입니다."
+      },
+      {
+        "question": "Silent Whispers 사전 예약은 어떻게 하나요?",
+        "answer": "공식 웹사이트의 등록 양식을 통해 Silent Whispers 사전 예약을 진행할 수 있습니다. 사전 예약을 하면 게임 출시 시 지급되는 보상을 계정으로 받을 수 있습니다."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Silent Whispers를 탐험할 준비가 되셨나요?",
+    "description": "가이드, 업데이트, 토론을 위해 Discord의 Silent Whispers 커뮤니티에 참여하세요!",
+    "joinCommunity": "Discord 참여하기",
+    "joinGame": "공식 사이트에서 사전 예약하기"
+  },
+  "footer": {
+    "title": "Silent Whispers 위키",
+    "description": "Silent Whispers 캐릭터, 출시일, 스토리, 로맨스, 탐험, 트레일러 및 초보자 가이드를 위한 종합 리소스 허브입니다.",
+    "resources": "리소스",
+    "community": "커뮤니티",
+    "legal": "법적 고지",
+    "discord": "디스코드",
+    "twitter": "X / 트위터",
+    "youtube": "유튜브",
+    "website": "공식 홈페이지",
+    "about": "정보",
+    "privacy": "개인정보 처리방침",
+    "terms": "서비스 이용약관",
+    "copyrightNotice": "저작권",
+    "copyright": "© 2026 Silent Whispers Wiki. Archosaur Games 또는 Silent Whispers 개발사와 관련이 없습니다.",
+    "disclaimer": "비공식 팬 제작 정보 사이트입니다."
+  },
+  "pages": {
+    "release": {
+      "title": "Silent Whispers 출시일 및 플랫폼",
+      "description": "Silent Whispers UE5 시네마틱 연애 어드벤처의 출시일, 확정 플랫폼, 퍼블리셔 및 출시 상태.",
+      "metaTitle": "Silent Whispers 출시일, 플랫폼 및 퍼블리셔",
+      "metaDescription": "Silent Whispers 출시일, PC/iOS/Android 플랫폼, VVANNA STUDIO 및 Archosaur Games 크레딧, 그리고 출시 상태를 확인해 보세요.",
+      "categoryLabel": "출시 정보",
+      "whatIs": "이 섹션은 무엇인가요?",
+      "whatIsDescription": "Silent Whispers의 출시 상태, 확정 플랫폼, 개발사, 퍼블리셔 및 공식 스토어 정보를 포함한 출시 정보입니다.",
+      "why": "출시 정보를 확인해야 하는 이유는 무엇인가요?",
+      "whySteps": {
+        "step1Title": "확정 플랫폼",
+        "step1Description": "Silent Whispers 출시 플랫폼 확인: PC, iOS, Android",
+        "step2Title": "출시 상태",
+        "step2Description": "발표되는 공식 출시일을 확인해 보세요",
+        "step3Title": "공식 출처",
+        "step3Description": "공식 채널을 팔로우하고 출시 업데이트 소식을 받아보세요"
+      },
+      "featured": "주요 및 필수 정보",
+      "all": "모든 출시 관련 글"
+    },
+    "platforms": {
+      "title": "Silent Whispers 플랫폼",
+      "description": "Silent Whispers의 확정된 PC, iOS, Android 플랫폼 지원, 스토어 상태 및 기기 세부 정보입니다.",
+      "metaTitle": "Silent Whispers 플랫폼 - PC, iOS 및 Android",
+      "metaDescription": "스토어 상태 및 기기 호환성을 포함한 Silent Whispers의 PC, iOS, Android 플랫폼 지원 정보입니다.",
+      "categoryLabel": "플랫폼",
+      "whatIs": "이 섹션은 무엇인가요?",
+      "whatIsDescription": "확정된 PC, iOS, Android 출시 및 각 버전을 이용할 수 있는 플랫폼을 포함한 Silent Whispers 플랫폼 정보입니다.",
+      "why": "플랫폼을 확인해야 하는 이유는 무엇인가요?",
+      "whySteps": {
+        "step1Title": "확정 플랫폼",
+        "step1Description": "Silent Whispers가 PC, iOS, Android로 출시됩니다",
+        "step2Title": "스토어 상태",
+        "step2Description": "공식 페이지가 오픈됨에 따라 각 버전의 출시처를 확인해 보세요",
+        "step3Title": "기기 적합도",
+        "step3Description": "원하는 플레이 방식에 맞는 기기를 선택하세요"
+      },
+      "featured": "추천 및 필수 항목",
+      "all": "모든 플랫폼 아티클"
+    },
+    "preregister": {
+      "title": "사일런트 위스퍼 사전 예약",
+      "description": "사일런트 위스퍼 공식 사이트에서 사전 예약하는 방법과 달성 보상, 마일스톤 보너스, 이클립스 코인에 대해 알아보세요.",
+      "metaTitle": "사일런트 위스퍼 사전 예약 - 보상 및 이클립스 코인",
+      "metaDescription": "사일런트 위스퍼 사전 예약에 참여하여 마일스톤 보상과 이클립스 코인을 획득하고, 공식 사이트에서 참여하는 방법을 확인해 보세요.",
+      "categoryLabel": "사전 예약",
+      "whatIs": "이 섹션은 무엇인가요?",
+      "whatIsDescription": "출시 전 얼리 보너스를 확보하는 방법, 마일스톤 보상, 이클립스 코인 등 사일런트 위스퍼 사전 예약에 관한 정보를 다룹니다.",
+      "why": "사전 예약을 해야 하는 이유는 무엇인가요?",
+      "whySteps": {
+        "step1Title": "마일스톤 보상",
+        "step1Description": "사전 예약 목표 달성에 따라 보상을 잠금 해제하세요",
+        "step2Title": "이클립스 코인",
+        "step2Description": "정식 출시 후 사일런트 위스퍼에서 사용할 수 있는 이클립스 코인을 획득하세요",
+        "step3Title": "사전 신청",
+        "step3Description": "출시 전에 공식 사이트에서 사전 예약을 완료하세요"
+      },
+      "featured": "추천 및 필수 항목",
+      "all": "모든 사전 예약 아티클"
+    },
+    "characters": {
+      "title": "사일런트 위스퍼 캐릭터",
+      "description": "사일런트 위스퍼의 확정된 남성 주인공 알라릭, 테론, 발렌의 프로필과 스토리 분위기, 지원 음성 언어 정보를 확인하세요.",
+      "metaTitle": "사일런트 위스퍼 캐릭터 - 알라릭, 테론, 발렌",
+      "metaDescription": "사일런트 위스퍼의 로맨스 주인공인 알라릭, 테론, 발렌을 만나보고, 이들의 스토리 프로필과 공식 보이스 클립을 감상해 보세요.",
+      "categoryLabel": "캐릭터",
+      "whatIs": "이 섹션은 무엇인가요?",
+      "whatIsDescription": "사일런트 위스퍼의 확정된 세 남성 주인공의 프로필과 '빛이 바래가는 도시'에서의 그들의 역할을 소개합니다.",
+      "why": "캐릭터 가이드를 읽어야 하는 이유는 무엇인가요?",
+      "whySteps": {
+        "step1Title": "주인공 알아보기",
+        "step1Description": "출시 전에 알라릭, 테론, 발렌에 대해 알아보세요",
+        "step2Title": "스토리 분위기",
+        "step2Description": "각 캐릭터의 이미지와 테마를 이해해 보세요",
+        "step3Title": "음성 언어",
+        "step3Description": "영어, 일본어, 한국어 보이스 클립을 확인해 보세요"
+      },
+      "featured": "추천 및 필수 항목",
+      "all": "모든 캐릭터 아티클"
+    },
+    "voices": {
+      "title": "사일런트 위스퍼 성우",
+      "description": "사일런트 위스퍼의 영어, 일본어, 한국어 음성 언어 옵션, 확정 성우진, 보이스 클립 상세 정보를 확인하세요.",
+      "metaTitle": "사일런트 위스퍼 성우 - 영어, 일본어, 한국어 성우진",
+      "metaDescription": "영어, 일본어, 한국어 성우진과 오디오 옵션을 포함한 사일런트 위스퍼 성우 관련 정보를 제공합니다.",
+      "categoryLabel": "성우진",
+      "whatIs": "이 섹션은 무엇인가요?",
+      "whatIsDescription": "지원되는 음성 언어, 확정된 출연진, 공식 음성 클립을 들을 수 있는 곳을 포함한 Silent Whispers의 음성 정보입니다.",
+      "why": "왜 성우 정보를 확인해야 하나요?",
+      "whySteps": {
+        "step1Title": "음성 언어",
+        "step1Description": "Silent Whispers의 영어, 일본어, 한국어 음성을 확인하세요.",
+        "step2Title": "출연진 정보",
+        "step2Description": "발표되는 대로 확정된 성우진을 확인하세요.",
+        "step3Title": "오디오 옵션",
+        "step3Description": "원하는 플레이 방식에 맞춰 음성 언어를 변경하세요."
+      },
+      "featured": "주요 및 필수 정보",
+      "all": "모든 성우 관련 기사"
+    },
+    "guide": {
+      "title": "Silent Whispers 가이드",
+      "description": "Silent Whispers 출시를 대비한 초보자 가이드, 게임 플레이 기능 및 실용적인 팁입니다.",
+      "metaTitle": "Silent Whispers 가이드 - 초보자 및 게임 플레이 팁",
+      "metaDescription": "사전 예약, 플랫폼, 캐릭터, 스토리, 게임 플레이 기능 및 공식 업데이트 채널을 다루는 Silent Whispers 초보자 가이드입니다.",
+      "categoryLabel": "게임 가이드",
+      "whatIs": "이 섹션은 무엇인가요?",
+      "whatIsDescription": "사전 예약부터 게임 플레이 방향, 공식 채널까지 Silent Whispers의 확정된 기본 정보를 다루는 가이드입니다.",
+      "why": "왜 가이드를 읽어야 하나요?",
+      "whySteps": {
+        "step1Title": "올바른 시작",
+        "step1Description": "사전 예약하고 플랫폼 선택하기",
+        "step2Title": "게임 배우기",
+        "step2Description": "확정된 기능과 시스템 이해하기",
+        "step3Title": "최신 소식 확인하기",
+        "step3Description": "공식 채널을 팔로우하고 출시 뉴스 받아보기"
+      },
+      "featured": "주요 및 필수 정보",
+      "all": "모든 가이드"
+    }
   }
 }
