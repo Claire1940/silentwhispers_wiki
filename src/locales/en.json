@@ -294,7 +294,7 @@
     "silentWhispersBeginnerGuide": {
       "title": "Silent Whispers Beginner Guide",
       "displayType": "step-by-step",
-      "intro": "Start here for the confirmed basics of Silent Whispers: pre-registration, platforms, story setup, characters, gameplay features, and official update channels.",
+      "intro": "Start here for the confirmed basics of Silent Whispers: pre-registration, platforms, story setup, characters, gameplay features, and official update channels. Silent Whispers is a free-to-play cinematic love adventure from Archosaur Games and VVANNA STUDIO, built with Unreal Engine 5 for PC, iOS, and Android, set in the City of Fading Light where everyday romance, freeform exploration, first-person interactions, survival games, betrayal, and a time-loop narrative shape the core setup.",
       "steps": [
         {
           "icon": "CalendarPlus",
@@ -367,7 +367,7 @@
     "silentWhispersStoryAndWorld": {
       "title": "Silent Whispers Story and World",
       "displayType": "lore-cards",
-      "intro": "Explore the City of Fading Light, the blurred line between reality and illusion, and the survival-driven romance at the center of Silent Whispers.",
+      "intro": "Explore the City of Fading Light, the blurred line between reality and illusion, and the survival-driven romance at the center of Silent Whispers. The world frames romance inside a fantasy metropolis where ordinary routines, dates, and urban exploration collide with dangerous games, survival choices, betrayal, and time-loop consequences, built around emotional closeness, cinematic realism, and the question of what a second chance is worth.",
       "items": [
         {
           "icon": "Moon",
@@ -462,7 +462,7 @@
     "silentWhispersTrailersAndTechDemo": {
       "title": "Silent Whispers Trailers and Tech Demo",
       "displayType": "video-gallery",
-      "intro": "The official Silent Whispers videos introduce the City of Fading Light, the three confirmed male leads, the cinematic UE5 visual direction, first-person interaction style, and the game's music tone.",
+      "intro": "The official Silent Whispers videos introduce the City of Fading Light, the three confirmed male leads, the cinematic UE5 visual direction, first-person interaction style, and the game's music tone. Each official upload confirms specific story, character, and visual details drawn from the public reveal materials.",
       "items": [
         {
           "icon": "Clapperboard",
@@ -537,7 +537,7 @@
     "silentWhispersCodesAndRedeemStatus": {
       "title": "Silent Whispers Codes and Redeem Status",
       "displayType": "code-status-cards",
-      "intro": "Track whether Silent Whispers has official gift codes, how redeem status differs from pre-registration, and where code news should be checked.",
+      "intro": "Track whether Silent Whispers has official gift codes, how redeem status differs from pre-registration, and where code news should be checked. Silent Whispers has global pre-registration and confirmed pre-registration rewards, but the public official materials do not show an active gift-code redemption system yet, so website email verification, pre-registration rewards, and true redeem codes should be kept separate.",
       "items": [
         {
           "icon": "Ticket",
