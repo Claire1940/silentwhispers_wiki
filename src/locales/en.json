@@ -10,14 +10,7 @@
       "twitterDescription": "Silent Whispers covers release date, pre-registration, characters, trailers, and guides for the UE5 cinematic love adventure."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
