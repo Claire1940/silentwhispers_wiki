@@ -14,7 +14,7 @@
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Pre-Register Now",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -52,696 +52,571 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Silent Whispers Gameplay",
+    "description": "Explore cinematic romance, first-person interactions, freeform urban exploration, and time-loop survival in this UE5 love adventure for PC, iOS, and Android."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "Silent Whispers",
+    "titleHighlight": "Guide Hub",
+    "subtitle": "Everything you need to follow the Silent Whispers release, characters, story, and rewards",
     "cards": [
       {
-        "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "icon": "Calendar",
+        "title": "Silent Whispers Release Date",
+        "description": "Platforms, publisher, engine, and launch status"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Gift",
+        "title": "Silent Whispers Pre-Registration",
+        "description": "Launch rewards and how to register early"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
-      },
-      {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
-      },
-      {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
+        "icon": "Users",
+        "title": "Silent Whispers Characters",
+        "description": "The three confirmed male leads and their roles"
       },
       {
         "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
+        "title": "Silent Whispers Gameplay",
+        "description": "Core features, exploration, and romance systems"
       },
       {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
+        "icon": "BookOpen",
+        "title": "Silent Whispers Beginner Guide",
+        "description": "Start here for the confirmed basics"
       },
       {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
+        "icon": "BookMarked",
+        "title": "Silent Whispers Story",
+        "description": "City of Fading Light, time loops, and survival"
       },
       {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Film",
+        "title": "Silent Whispers Trailers",
+        "description": "PV, real-time tech demo, and OST videos"
+      },
+      {
+        "icon": "Ticket",
+        "title": "Silent Whispers Codes",
+        "description": "Gift code and redeem status tracker"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "silentWhispersReleaseDateAndPlatforms": {
+      "title": "Silent Whispers Release Date, Platforms, and Publisher",
+      "displayType": "info-cards",
+      "intro": "Track the essential launch information for Silent Whispers, including its release status, confirmed platforms, developer, publisher, and public storefront details. The game has been announced globally, with several launch details to follow through official channels.",
+      "items": [
+        {
+          "icon": "BadgeCheck",
+          "label": "Release Status",
+          "value": "Announced",
+          "details": "Silent Whispers was announced as an upcoming free-to-play cinematic love adventure game."
+        },
+        {
+          "icon": "Calendar",
+          "label": "Release Date",
+          "value": "TBA",
+          "details": "The exact global release date for PC, iOS, and Android will be confirmed through official channels."
+        },
+        {
+          "icon": "Monitor",
+          "label": "Confirmed Platforms",
+          "value": "PC, iOS, Android",
+          "details": "The official announcement lists PC, iOS, and Android as the target platforms."
+        },
+        {
+          "icon": "Code",
+          "label": "Developer",
+          "value": "VVANNA STUDIO",
+          "details": "VVANNA STUDIO is the development studio working on Silent Whispers."
+        },
+        {
+          "icon": "Building2",
+          "label": "Publisher",
+          "value": "Archosaur Games",
+          "details": "Archosaur Games publishes Silent Whispers and operates the official website."
+        },
+        {
+          "icon": "Coins",
+          "label": "Business Model",
+          "value": "Free-to-play",
+          "details": "Silent Whispers is a free-to-play game, with paid systems and content details to be shared closer to launch."
+        },
+        {
+          "icon": "Cpu",
+          "label": "Engine",
+          "value": "Unreal Engine 5",
+          "details": "The game uses Unreal Engine 5 for its cinematic visual presentation."
+        },
+        {
+          "icon": "ShoppingBag",
+          "label": "Storefront",
+          "value": "Official pre-registration site",
+          "details": "The official website is live with pre-registration. App Store, Google Play, and PC client pages will be linked as they go public."
+        }
+      ]
+    },
+    "silentWhispersPreRegistrationRewards": {
+      "title": "Silent Whispers Pre-Registration Rewards",
+      "displayType": "reward-cards",
+      "intro": "Global pre-registration is open through the official Silent Whispers website. Registered players are tied to launch rewards including the Sonnet avatar title, a Theron-related event reward, Stamina, and Eclipse Coins.",
+      "items": [
+        {
+          "icon": "Globe",
+          "name": "Official Pre-Registration",
+          "type": "Registration Portal",
+          "amount": "Open",
+          "description": "Players can pre-register through the official Silent Whispers website using the registration form.",
+          "claim_context": "Launch reward delivery will be handled through the game once service begins."
+        },
+        {
+          "icon": "Award",
+          "name": "Sonnet",
+          "type": "Avatar Title",
+          "amount": "1 title",
+          "description": "Sonnet is listed as a pre-registration avatar title reward.",
+          "claim_context": "Included in the launch reward set for pre-registered players."
+        },
+        {
+          "icon": "Heart",
+          "name": "Theron Event Reward",
+          "type": "Event Reward",
+          "amount": "1 event reward",
+          "description": "A Theron-related event reward named \"It's not like I'm posing for you.\" is part of the pre-registration bonuses.",
+          "claim_context": "Connected to Theron and the pre-registration reward campaign."
+        },
+        {
+          "icon": "Zap",
+          "name": "Stamina",
+          "type": "Gameplay Resource",
+          "amount": "99",
+          "description": "Stamina is listed as part of the pre-registration reward bundle.",
+          "claim_context": "Useful as an early-game resource once the game launches."
+        },
+        {
+          "icon": "CircleDollarSign",
+          "name": "Eclipse Coins",
+          "type": "Currency",
+          "amount": "19,999",
+          "description": "Eclipse Coins are listed as the main currency reward in the pre-registration bundle.",
+          "claim_context": "Included with the launch rewards for players who pre-register."
+        }
+      ]
+    },
+    "silentWhispersCharacters": {
+      "title": "Meet the Main Characters in Silent Whispers",
+      "displayType": "character-cards",
+      "intro": "Silent Whispers has revealed three main romance characters so far: Alarik, Theron, and Valen. Each character is presented through official descriptions, PV appearances, and multilingual voice clips.",
+      "items": [
+        {
+          "icon": "Crown",
+          "name": "Alarik",
+          "role": "Main romance character",
+          "story_profile": "Alarik is framed as an overwhelming figure of authority and power, positioned above ordinary rules and tied to dominance, control, and eternity.",
+          "voice_info": "Official character voice clips are available in Chinese, English, and Japanese.",
+          "known_from": "Official website, World Premiere PV, Real-Time Gameplay Tech Demo"
+        },
+        {
+          "icon": "Swords",
+          "name": "Theron",
+          "role": "Main romance character",
+          "story_profile": "Theron is presented as a dangerous figure close to order, blades, shadows, and fate, with a sharper and more conflicted tone than the everyday romance setup first suggests.",
+          "voice_info": "Official character voice clips are available in Chinese, English, and Japanese.",
+          "known_from": "Official website, World Premiere PV, pre-registration reward campaign"
+        },
+        {
+          "icon": "Snowflake",
+          "name": "Valen",
+          "role": "Main romance character",
+          "story_profile": "Valen is associated with ice, snow, purity, restraint, and fate, giving him the coldest and most mysterious image among the three revealed leads.",
+          "voice_info": "Official character voice clips are available in Chinese, English, and Japanese.",
+          "known_from": "Official website, World Premiere PV, Real-Time Gameplay Tech Demo"
+        }
+      ]
+    },
+    "silentWhispersGameplayAndFeatures": {
+      "title": "Silent Whispers Gameplay and Core Features",
+      "displayType": "feature-grid",
+      "intro": "Silent Whispers mixes cinematic romance, first-person interaction, freeform city exploration, time-loop storytelling, dates, and dangerous survival choices. Its public gameplay identity is story-first, built around emotional character interaction and choices inside the City of Fading Light.",
+      "items": [
+        {
+          "icon": "Clapperboard",
+          "name": "Cinematic 4K Visuals",
+          "category": "Visual Presentation",
+          "description": "Silent Whispers uses Unreal Engine 5 to present high-fidelity 3D characters, city scenes, lighting, and cinematic romance moments."
+        },
+        {
+          "icon": "Eye",
+          "name": "First-Person Interactions",
+          "category": "Character Interaction",
+          "description": "The game emphasizes intimate first-person moments, where the player experiences character scenes through close-up perspective and direct interaction."
+        },
+        {
+          "icon": "Map",
+          "name": "Freeform Urban Exploration",
+          "category": "Exploration",
+          "description": "Players are invited to explore the City of Fading Light, with public descriptions referencing cafes, aerial stations, a Ferris wheel, and everyday city routines."
+        },
+        {
+          "icon": "Heart",
+          "name": "Romantic Dates",
+          "category": "Relationship Content",
+          "description": "Silent Whispers includes dates and everyday romantic encounters with the revealed male leads as part of its core fantasy."
+        },
+        {
+          "icon": "RotateCw",
+          "name": "Time Loop Narrative",
+          "category": "Story Structure",
+          "description": "The story uses a time-loop setup where choices, survival, and repeated attempts shape the player's journey through the city."
+        },
+        {
+          "icon": "Skull",
+          "name": "Dangerous Games",
+          "category": "Survival Drama",
+          "description": "Beyond romance, the game places the player into perilous games involving survival, betrayal, and difficult decisions."
+        },
+        {
+          "icon": "Moon",
+          "name": "City of Fading Light",
+          "category": "World Setting",
+          "description": "The main setting is a fantasy metropolis that looks familiar on the surface but hides illusion, danger, and strange rules beneath ordinary city life."
+        },
+        {
+          "icon": "Smartphone",
+          "name": "Cross-Platform Visual Focus",
+          "category": "Technology",
+          "description": "The development team has discussed PC and mobile visual balance, with character presentation treated as a central technical priority."
+        }
+      ]
+    },
+    "silentWhispersBeginnerGuide": {
+      "title": "Silent Whispers Beginner Guide",
+      "displayType": "step-by-step",
+      "intro": "Start here for the confirmed basics of Silent Whispers: pre-registration, platforms, story setup, characters, gameplay features, and official update channels.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "icon": "CalendarPlus",
+          "title": "Pre-register through the official site",
+          "summary": "Use the official Silent Whispers website as the main entry point for global pre-registration.",
+          "details": [
+            "The official site is the safest starting point for pre-registration.",
+            "Pre-registration is open for the announced PC, iOS, and Android release.",
+            "Email verification on the website is for account or pre-registration confirmation, not a gift-code redeem system."
+          ]
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "icon": "Monitor",
+          "title": "Choose your target platform",
+          "summary": "Silent Whispers has been announced for PC, iOS, and Android.",
+          "details": [
+            "PC, iOS, and Android are the confirmed platforms.",
+            "Store pages, client download links, system requirements, and final launch build details will follow through official channels.",
+            "Follow the official site and social channels for platform-specific download updates."
+          ]
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "icon": "Users",
+          "title": "Know the three confirmed male leads",
+          "summary": "The first confirmed romance options are Alarik, Theron, and Valen.",
+          "details": [
+            "Alarik is presented as a powerful figure standing above rules and ordinary laws.",
+            "Theron is described as a sharp shadow on the edge of order and a prisoner of fate.",
+            "Valen is associated with purity, ice, snow, and a fate-heavy character image."
+          ]
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "icon": "Map",
+          "title": "Understand the world setup",
+          "summary": "The story takes place in the City of Fading Light, a fantasy metropolis where ordinary life hides dangerous games.",
+          "details": [
+            "The city includes familiar daily spaces such as cafes, aerial stations, and a Ferris wheel.",
+            "The boundary between illusion and reality blurs as the player is drawn into survival scenarios.",
+            "The narrative uses a time-loop structure tied to choices and second chances."
+          ]
+        },
+        {
+          "icon": "Gamepad2",
+          "title": "Learn the confirmed gameplay direction",
+          "summary": "The revealed feature set focuses on cinematic 4K visuals, first-person interaction, city exploration, and romance-driven choices.",
+          "details": [
+            "The game is built with Unreal Engine 5.",
+            "Confirmed features include intimate first-person interactions and freeform urban exploration.",
+            "The public materials show a cinematic love-adventure format rather than a combat-first RPG format."
+          ]
+        },
+        {
+          "icon": "Bell",
+          "title": "Track official updates only",
+          "summary": "Use the official website, YouTube channel, X account, and Discord invite for launch news, videos, and event notices.",
+          "details": [
+            "The official YouTube channel hosts the World Premiere PV, real-time gameplay tech demo, OST video, and later short-form demo posts.",
+            "The official X account has shared pre-registration and tech-demo updates.",
+            "Discord is the official community entry point linked from public Silent Whispers materials."
+          ]
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "Pre-registration through the official site is the main way to secure launch rewards.",
+        "PC, iOS, and Android are the confirmed platforms, with exact store pages to follow.",
+        "The game is a story-first cinematic love adventure built on Unreal Engine 5.",
+        "Use only official Silent Whispers channels for news, videos, and reward updates."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
-        },
-        {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
-        },
-        {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+    "silentWhispersStoryAndWorld": {
+      "title": "Silent Whispers Story and World",
+      "displayType": "lore-cards",
+      "intro": "Explore the City of Fading Light, the blurred line between reality and illusion, and the survival-driven romance at the center of Silent Whispers.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "icon": "Moon",
+          "title": "City of Fading Light",
+          "category": "World",
+          "summary": "The main setting is a fantasy metropolis that looks familiar on the surface but carries a hidden threat underneath.",
+          "details": [
+            "The city is described through everyday spaces such as cafes, aerial stations, and a Ferris wheel in sunset light.",
+            "It is positioned as both a possible refuge and a place where survival matters.",
+            "The city supports the contrast between daily romance and dangerous game-like trials."
+          ]
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "icon": "Sparkles",
+          "title": "Reality and Illusion",
+          "category": "Core Theme",
+          "summary": "The story begins from a world where the border between illusion and reality starts to blur.",
+          "details": [
+            "The player steps into a maze-like city of light and shadow.",
+            "The premise connects emotional intimacy with a larger survival mystery.",
+            "The public story materials emphasize uncertainty inside the setting, not a simple slice-of-life romance."
+          ]
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "icon": "Heart",
+          "title": "Everyday Romance",
+          "category": "Romance",
+          "summary": "Silent Whispers includes daily routines, dates, and small ordinary moments with the male leads.",
+          "details": [
+            "The game highlights spending time in a living city.",
+            "Romantic scenes are paired with first-person closeness and cinematic presentation.",
+            "The official feature list frames romance as something tied to fate and repeated encounters."
+          ]
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "icon": "Skull",
+          "title": "Dangerous Games",
+          "category": "Conflict",
+          "summary": "The romance setup is interrupted by perilous games that force choices around survival and betrayal.",
+          "details": [
+            "The player is drawn into one dangerous game after another.",
+            "Survival and betrayal are part of the official story framing.",
+            "The game uses these trials to give romantic choices a darker, higher-stakes background."
+          ]
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
+          "icon": "RotateCw",
+          "title": "Time Loop Narrative",
+          "category": "Narrative Device",
+          "summary": "Time loops are a confirmed part of the story structure and are tied to choices for the next version of the player.",
+          "details": [
+            "The official feature list names a time-loop narrative directly.",
+            "The premise asks what the player would risk for another chance.",
+            "Public previews connect the loop with making better choices across repeated lives."
+          ]
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
+          "icon": "Crown",
+          "title": "Alarik",
+          "category": "Character",
+          "summary": "Alarik is one of the three confirmed male leads and is framed around overwhelming power and rule-breaking authority.",
+          "details": [
+            "His profile presents him as someone standing above rules.",
+            "His character image is tied to control, power, and a commanding presence.",
+            "He appears in the revealed PV and tech-demo materials."
+          ]
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
+          "icon": "Swords",
+          "title": "Theron",
+          "category": "Character",
+          "summary": "Theron is one of the three confirmed male leads and is associated with shadows, order, sharpness, and fate.",
+          "details": [
+            "His official profile describes him as a blade-like figure on the edge of order.",
+            "A pre-registration reward is tied to a Theron event named \"It's not like I'm posing for you.\"",
+            "He appears across the official reveal materials and public preview coverage."
+          ]
         },
         {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "icon": "Snowflake",
+          "title": "Valen",
+          "category": "Character",
+          "summary": "Valen is one of the three confirmed male leads and is presented with imagery of ice, snow, purity, and fate.",
+          "details": [
+            "His official profile links him to ice-and-snow imagery.",
+            "Preview coverage notes that the world-premiere PV suggests a strong connection between Valen and the loop setup.",
+            "He is part of the first confirmed romance-option lineup."
+          ]
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
+    "silentWhispersTrailersAndTechDemo": {
+      "title": "Silent Whispers Trailers and Tech Demo",
+      "displayType": "video-gallery",
+      "intro": "The official Silent Whispers videos introduce the City of Fading Light, the three confirmed male leads, the cinematic UE5 visual direction, first-person interaction style, and the game's music tone.",
       "items": [
         {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
+          "icon": "Clapperboard",
+          "title": "Silent Whispers - World Premiere PV",
+          "type": "World Premiere PV",
+          "url": "https://www.youtube.com/watch?v=JMXLe7YUDeE",
+          "runtime": "Official YouTube video",
+          "tags": ["Reveal", "Story", "Characters", "UE5"],
+          "confirms": [
+            "Introduces the core Silent Whispers premise.",
+            "Shows the City of Fading Light atmosphere.",
+            "Presents the three confirmed male leads: Alarik, Theron, and Valen.",
+            "Connects romance, danger, and time-loop framing."
           ]
         },
         {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
+          "icon": "Gamepad2",
+          "title": "Silent Whispers Real-Time Gameplay Tech Demo",
+          "type": "Real-Time Gameplay Tech Demo",
+          "url": "https://www.youtube.com/watch?v=px9OBqvs9w4",
+          "runtime": "Official YouTube video",
+          "tags": ["Tech Demo", "UE5", "In-Engine", "First-Person"],
+          "confirms": [
+            "Highlights Unreal Engine 5 real-time rendering.",
+            "Shows close-up character realism, skin detail, clothing detail, and cinematic camera work.",
+            "Demonstrates the visual direction behind first-person romantic interaction scenes.",
+            "Official social posts describe the tech demo footage as captured in-engine."
           ]
         },
         {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
+          "icon": "Music",
+          "title": "Silent Whispers Original Soundtrack Vol. 1 - Illuminated Whispers",
+          "type": "OST Video",
+          "url": "https://www.youtube.com/watch?v=K81o-aD0hUo",
+          "runtime": "Official YouTube video",
+          "tags": ["OST", "Music", "Mood", "In-Engine Demo"],
+          "confirms": [
+            "Introduces the music direction for Silent Whispers.",
+            "Uses the title \"Illuminated Whispers\" for the first original soundtrack release.",
+            "Official posts describe the album as original music from the in-engine tech demo.",
+            "Supports the game's emotional, cinematic romance tone."
           ]
         },
         {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
+          "icon": "PlayCircle",
+          "title": "Silent Whispers Official YouTube Channel",
+          "type": "Official Channel",
+          "url": "https://www.youtube.com/@SilentWhispersEN",
+          "runtime": "Official channel page",
+          "tags": ["PV", "Tech Demo", "Shorts", "OST"],
+          "confirms": [
+            "Collects the official English video uploads in one place.",
+            "Includes reveal videos, tech-demo content, OST content, and later short-form demo posts.",
+            "Useful for tracking new trailers before launch."
           ]
         },
         {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
+          "icon": "Eye",
+          "title": "Silent Whispers Birds-Eye View Tech Demo",
+          "type": "Short Tech Demo",
+          "url": "https://www.youtube.com/@SilentWhispersEN/shorts",
+          "runtime": "Official YouTube Shorts page",
+          "tags": ["Shorts", "Tech Demo", "UE5", "Environment"],
+          "confirms": [
+            "Official social listings identify this as a real-time rendered birds-eye-view tech demo.",
+            "The short-form format is used for additional visual showcases beyond the main PV and full tech demo.",
+            "Works as a compact update feed for new visual demonstrations."
           ]
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
+    "silentWhispersCodesAndRedeemStatus": {
+      "title": "Silent Whispers Codes and Redeem Status",
+      "displayType": "code-status-cards",
+      "intro": "Track whether Silent Whispers has official gift codes, how redeem status differs from pre-registration, and where code news should be checked.",
+      "items": [
         {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "icon": "Ticket",
+          "title": "Active Silent Whispers Codes",
+          "status": "No active official gift codes",
+          "code": "None",
+          "reward": "None",
+          "expires": "No expiry listed",
+          "details": [
+            "No Silent Whispers-specific redeem codes are listed on the official website, official YouTube channel, official X account, or Discord invite landing page materials.",
+            "Pre-registration rewards are not gift codes.",
+            "This card will change only when an official Silent Whispers channel publishes a real redeem code."
+          ]
         },
         {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
+          "icon": "ScanLine",
+          "title": "Official Redeem System",
+          "status": "Redeem entry not open",
+          "code": "Not applicable",
+          "reward": "Not applicable",
+          "expires": "Not applicable",
+          "details": [
+            "The public official pages do not show a dedicated Silent Whispers code redemption page or in-game redeem menu yet.",
+            "The game has not launched publicly, so a normal in-game redeem flow is not available in the current public materials.",
+            "Use only official Silent Whispers announcements for future code-entry instructions."
+          ]
         },
         {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
+          "icon": "MailCheck",
+          "title": "Website Email Verification",
+          "status": "Not a gift code",
+          "code": "Verification code only",
+          "reward": "No direct item reward",
+          "expires": "Session-based verification",
+          "details": [
+            "A verification code used during website registration or account confirmation is only for confirming the registration process.",
+            "It should not be treated as a Silent Whispers reward code.",
+            "Keep email verification codes private and use them only on the official website."
+          ]
         },
         {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
+          "icon": "Gift",
+          "title": "Pre-Registration Rewards",
+          "status": "Confirmed reward category",
+          "code": "No code required on public pages",
+          "reward": "Sonnet avatar title, Theron event, 99 Stamina, 19,999 Eclipse Coins",
+          "expires": "Launch-claim timing follows official launch instructions",
+          "details": [
+            "Public coverage lists the Sonnet avatar title as a pre-registration reward.",
+            "A Theron-related event named \"It's not like I'm posing for you.\" is included in the pre-registration reward set.",
+            "99 Stamina and 19,999 Eclipse Coins are listed as rewards for players who pre-register for launch."
+          ]
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
+          "icon": "AlertTriangle",
+          "title": "Wrong-Game Code Warning",
+          "status": "Do not use unrelated Whispers codes",
+          "code": "Not Silent Whispers codes",
+          "reward": "Not valid for Silent Whispers",
+          "expires": "Not applicable",
+          "details": [
+            "Codes for other games using the word \"Whispers\" are not Silent Whispers codes.",
+            "Silent Whispers is published by Archosaur Games and developed by VVANNA STUDIO; code sources should match the official Silent Whispers channels.",
+            "Avoid pages that mix Silent Whispers with unrelated interactive-story code lists."
+          ]
         },
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
-        },
-        {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
-        },
-        {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
-        },
-        {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
-        },
-        {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "icon": "Megaphone",
+          "title": "Official Code Sources to Watch",
+          "status": "Official channels only",
+          "code": "Pending official release",
+          "reward": "Pending official release",
+          "expires": "Pending official release",
+          "details": [
+            "Official website: pre-registration and main game notices.",
+            "Official X account: announcement posts and short update notices.",
+            "Official Discord: community announcements after joining.",
+            "Official YouTube channel: trailers, tech demos, OST, and later official video notices."
+          ]
         }
       ]
     }
@@ -749,31 +624,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Silent Whispers",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Silent Whispers?",
+        "answer": "Silent Whispers is a free-to-play cinematic love adventure game developed by VVANNA STUDIO and published by Archosaur Games, built with Unreal Engine 5 and set in the City of Fading Light."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "What platforms is Silent Whispers coming to?",
+        "answer": "Silent Whispers has been announced for PC, iOS, and Android. Exact store pages, client download links, and system requirements will be shared through the official website and social channels."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "Is there a Silent Whispers release date yet?",
+        "answer": "The exact release date for Silent Whispers is still to be announced. The game is in global pre-registration, and the launch date will be confirmed through official channels."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "Who are the main characters in Silent Whispers?",
+        "answer": "Silent Whispers has revealed three main romance characters: Alarik, Theron, and Valen. Each appears in the World Premiere PV and has official voice clips in Chinese, English, and Japanese."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "Are there any active Silent Whispers gift codes?",
+        "answer": "No active Silent Whispers gift codes are listed on the official channels right now. Pre-registration rewards like the Sonnet title, Stamina, and Eclipse Coins are separate from gift codes."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "How do I pre-register for Silent Whispers?",
+        "answer": "You can pre-register for Silent Whispers through the official website using the registration form. Pre-registration ties your account to launch rewards delivered once the game goes live."
       }
     ]
   },
@@ -801,125 +676,105 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+    "release": {
+      "title": "Silent Whispers Release Date and Platforms",
+      "description": "Release date, confirmed platforms, publisher, and launch status for the Silent Whispers UE5 cinematic love adventure.",
+      "metaTitle": "Silent Whispers Release Date, Platforms & Publisher",
+      "metaDescription": "Track the Silent Whispers release date, PC/iOS/Android platforms, VVANNA STUDIO and Archosaur Games credits, and launch status.",
+      "categoryLabel": "RELEASE INFO",
+      "whatIs": "What is this section?",
+      "whatIsDescription": "Release information covering the Silent Whispers launch status, confirmed platforms, developer, publisher, and public storefront details.",
+      "why": "Why follow release info?",
+      "whySteps": {
+        "step1Title": "Confirmed Platforms",
+        "step1Description": "Know where Silent Whispers is coming: PC, iOS, and Android",
+        "step2Title": "Launch Status",
+        "step2Description": "Track the official release date as it is announced",
+        "step3Title": "Official Sources",
+        "step3Description": "Follow only official channels for trustworthy launch updates"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Release Articles"
+    },
+    "characters": {
+      "title": "Silent Whispers Characters",
+      "description": "Profiles for the confirmed Silent Whispers male leads Alarik, Theron, and Valen, including story tone and voice-language availability.",
+      "metaTitle": "Silent Whispers Characters - Alarik, Theron & Valen",
+      "metaDescription": "Meet the confirmed Silent Whispers romance characters Alarik, Theron, and Valen, with story profiles and official voice clips.",
+      "categoryLabel": "CHARACTERS",
+      "whatIs": "What is this section?",
+      "whatIsDescription": "Character profiles for the three confirmed Silent Whispers male leads and their roles in the City of Fading Light.",
+      "why": "Why read character guides?",
+      "whySteps": {
+        "step1Title": "Know the Leads",
+        "step1Description": "Learn Alarik, Theron, and Valen before launch",
+        "step2Title": "Story Tone",
+        "step2Description": "Understand each character's image and themes",
+        "step3Title": "Voice Languages",
+        "step3Description": "Find voice clips in Chinese, English, and Japanese"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Character Articles"
+    },
+    "story": {
+      "title": "Silent Whispers Story and World",
+      "description": "The City of Fading Light, time-loop narrative, dangerous games, and survival-driven romance of Silent Whispers.",
+      "metaTitle": "Silent Whispers Story, Lore & City of Fading Light",
+      "metaDescription": "Explore the Silent Whispers world setup, the City of Fading Light, time-loop structure, and survival romance themes.",
+      "categoryLabel": "STORY & WORLD",
+      "whatIs": "What is this section?",
+      "whatIsDescription": "Story and world coverage for Silent Whispers, including its setting, themes, and narrative devices.",
+      "why": "Why follow the story?",
+      "whySteps": {
+        "step1Title": "World Setup",
+        "step1Description": "Understand the City of Fading Light",
+        "step2Title": "Core Themes",
+        "step2Description": "Track reality, illusion, and survival drama",
+        "step3Title": "Narrative Device",
+        "step3Description": "See how the time loop shapes your choices"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Story Articles"
+    },
+    "guide": {
+      "title": "Silent Whispers Guides",
+      "description": "Beginner guides, gameplay features, and practical tips for following the Silent Whispers release.",
+      "metaTitle": "Silent Whispers Guides - Beginner & Gameplay Tips",
+      "metaDescription": "Silent Whispers beginner guides covering pre-registration, platforms, characters, story, gameplay features, and official update channels.",
       "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIs": "What is this section?",
+      "whatIsDescription": "Guides covering the confirmed basics of Silent Whispers, from pre-registration to gameplay direction and official channels.",
       "why": "Why read guides?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Start Right",
+        "step1Description": "Pre-register and pick your platform",
+        "step2Title": "Learn the Game",
+        "step2Description": "Understand confirmed features and systems",
+        "step3Title": "Stay Updated",
+        "step3Description": "Follow official channels for launch news"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "trailer": {
+      "title": "Silent Whispers Trailers and Tech Demo",
+      "description": "Official PV, real-time gameplay tech demo, OST video, and channel updates for Silent Whispers.",
+      "metaTitle": "Silent Whispers Trailers, Tech Demo & OST Videos",
+      "metaDescription": "Watch the Silent Whispers World Premiere PV, real-time UE5 tech demo, and OST videos, and track what each one confirms.",
+      "categoryLabel": "TRAILERS & DEMO",
+      "whatIs": "What is this section?",
+      "whatIsDescription": "Video coverage for Silent Whispers, including official trailers, tech demos, and soundtrack releases.",
+      "why": "Why watch the trailers?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "See the Visuals",
+        "step1Description": "Experience the UE5 cinematic direction",
+        "step2Title": "Meet the Leads",
+        "step2Description": "Spot Alarik, Theron, and Valen in action",
+        "step3Title": "Track Updates",
+        "step3Description": "Follow new demos and OST releases"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
-    },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
-      "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Items"
-    },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
-      "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Biomes"
-    },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
-      "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Building Guides"
-    },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Trailer Articles"
     }
   }
 }

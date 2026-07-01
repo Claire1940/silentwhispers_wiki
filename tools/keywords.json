@@ -1,46 +1,67 @@
 {
   "categories": [
     {
+      "category": "Release",
+      "keywords": [
+        "silent whispers release date",
+        "silent whispers platforms",
+        "silent whispers pc ios android"
+      ]
+    },
+    {
+      "category": "Pre-Registration",
+      "keywords": [
+        "silent whispers pre-registration",
+        "silent whispers pre-registration rewards",
+        "silent whispers eclipse coins"
+      ]
+    },
+    {
+      "category": "Characters",
+      "keywords": [
+        "silent whispers characters",
+        "silent whispers alarik",
+        "silent whispers theron",
+        "silent whispers valen"
+      ]
+    },
+    {
+      "category": "Gameplay",
+      "keywords": [
+        "silent whispers gameplay",
+        "silent whispers features",
+        "silent whispers city of fading light"
+      ]
+    },
+    {
+      "category": "Story",
+      "keywords": [
+        "silent whispers story",
+        "silent whispers time loop",
+        "silent whispers lore"
+      ]
+    },
+    {
+      "category": "Trailers",
+      "keywords": [
+        "silent whispers pv",
+        "silent whispers tech demo",
+        "silent whispers ost"
+      ]
+    },
+    {
+      "category": "Codes",
+      "keywords": [
+        "silent whispers codes",
+        "silent whispers gift codes",
+        "silent whispers redeem codes"
+      ]
+    },
+    {
       "category": "Guides",
       "keywords": [
-        "lucid blocks guide"
-      ]
-    },
-    {
-      "category": "Crafting",
-      "keywords": [
-        "lucid blocks crafting recipes",
-        "lucid blocks apotheosis"
-      ]
-    },
-    {
-      "category": "Items",
-      "keywords": [
-        "lucid blocks faith wand",
-        "lucid blocks bee glider",
-        "lucid blocks chest",
-        "lucid blocks osmium"
-      ]
-    },
-    {
-      "category": "Biomes",
-      "keywords": [
-        "lucid blocks tiamana leyline"
-      ]
-    },
-    {
-      "category": "Building",
-      "keywords": [
-        "lucid blocks qualia"
-      ]
-    },
-    {
-      "category": "Support",
-      "keywords": [
-        "lucid blocks steam deck",
-        "lucid blocks full screen",
-        "lucid blocks multiplayer",
-        "lucid blocks android"
+        "silent whispers beginner guide",
+        "silent whispers wiki"
       ]
     }
   ]
