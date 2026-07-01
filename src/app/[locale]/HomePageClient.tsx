@@ -11,6 +11,7 @@ import { getPreferredMobileBannerSelection } from "@/components/ads/mobileAdConf
 import { scrollToSection } from "@/lib/scrollToSection";
 import { DynamicIcon } from "@/components/ui/DynamicIcon";
 import type { ContentItemWithType } from "@/lib/getLatestArticles";
+import type { ModuleLinkMap } from "@/lib/buildModuleLinkMap";
 
 // Lazy load heavy components
 const HeroStats = lazy(() => import("@/components/home/HeroStats"));
@@ -26,11 +27,40 @@ const LoadingPlaceholder = ({ height = "h-64" }: { height?: string }) => (
 
 interface HomePageClientProps {
   latestArticles: ContentItemWithType[];
+  moduleLinkMap: ModuleLinkMap;
   locale: string;
+}
+
+// 将模块大标题(h2)/子项标题(h3)在存在匹配文章时渲染为内链，否则渲染纯文本
+function LinkedTitle({
+  linkData,
+  children,
+  className,
+  locale,
+}: {
+  linkData: { url: string; title: string } | null | undefined;
+  children: React.ReactNode;
+  className?: string;
+  locale: string;
+}) {
+  if (linkData) {
+    const href = locale === "en" ? linkData.url : `/${locale}${linkData.url}`;
+    return (
+      <Link
+        href={href}
+        className={`${className || ""} hover:text-[hsl(var(--nav-theme-light))] hover:underline decoration-[hsl(var(--nav-theme-light))/0.4] underline-offset-4 transition-colors`}
+        title={linkData.title}
+      >
+        {children}
+      </Link>
+    );
+  }
+  return <>{children}</>;
 }
 
 export default function HomePageClient({
   latestArticles,
+  moduleLinkMap,
   locale,
 }: HomePageClientProps) {
   const t = useMessages() as any;
@@ -304,7 +334,12 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-8 md:mb-12 scroll-reveal">
             <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
-              {t.modules.silentWhispersReleaseDateAndPlatforms.title}
+              <LinkedTitle
+                linkData={moduleLinkMap["silentWhispersReleaseDateAndPlatforms"]}
+                locale={locale}
+              >
+                {t.modules.silentWhispersReleaseDateAndPlatforms.title}
+              </LinkedTitle>
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
               {t.modules.silentWhispersReleaseDateAndPlatforms.intro}
@@ -351,7 +386,12 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-8 md:mb-12 scroll-reveal">
             <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
-              {t.modules.silentWhispersPreRegistrationRewards.title}
+              <LinkedTitle
+                linkData={moduleLinkMap["silentWhispersPreRegistrationRewards"]}
+                locale={locale}
+              >
+                {t.modules.silentWhispersPreRegistrationRewards.title}
+              </LinkedTitle>
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
               {t.modules.silentWhispersPreRegistrationRewards.intro}
@@ -373,7 +413,16 @@ export default function HomePageClient({
                     </span>
                   </div>
                   <h3 className="font-bold text-lg mb-1 text-[hsl(var(--nav-theme-light))]">
-                    {item.name}
+                    <LinkedTitle
+                      linkData={
+                        moduleLinkMap[
+                          `silentWhispersPreRegistrationRewards::items::${index}`
+                        ]
+                      }
+                      locale={locale}
+                    >
+                      {item.name}
+                    </LinkedTitle>
                   </h3>
                   <p className="text-sm font-semibold mb-2">{item.amount}</p>
                   <p className="text-sm text-muted-foreground mb-2">{item.description}</p>
@@ -390,7 +439,12 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-8 md:mb-12 scroll-reveal">
             <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
-              {t.modules.silentWhispersCharacters.title}
+              <LinkedTitle
+                linkData={moduleLinkMap["silentWhispersCharacters"]}
+                locale={locale}
+              >
+                {t.modules.silentWhispersCharacters.title}
+              </LinkedTitle>
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
               {t.modules.silentWhispersCharacters.intro}
@@ -407,7 +461,18 @@ export default function HomePageClient({
                     <DynamicIcon name={item.icon} className="h-6 w-6 text-[hsl(var(--nav-theme-light))]" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-xl text-[hsl(var(--nav-theme-light))]">{item.name}</h3>
+                    <h3 className="font-bold text-xl text-[hsl(var(--nav-theme-light))]">
+                      <LinkedTitle
+                        linkData={
+                          moduleLinkMap[
+                            `silentWhispersCharacters::items::${index}`
+                          ]
+                        }
+                        locale={locale}
+                      >
+                        {item.name}
+                      </LinkedTitle>
+                    </h3>
                     <span className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
                       {item.role}
                     </span>
@@ -431,7 +496,12 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-8 md:mb-12 scroll-reveal">
             <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
-              {t.modules.silentWhispersGameplayAndFeatures.title}
+              <LinkedTitle
+                linkData={moduleLinkMap["silentWhispersGameplayAndFeatures"]}
+                locale={locale}
+              >
+                {t.modules.silentWhispersGameplayAndFeatures.title}
+              </LinkedTitle>
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
               {t.modules.silentWhispersGameplayAndFeatures.intro}
@@ -450,7 +520,18 @@ export default function HomePageClient({
                   <span className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
                     {item.category}
                   </span>
-                  <h3 className="font-bold mt-2 mb-1">{item.name}</h3>
+                  <h3 className="font-bold mt-2 mb-1">
+                    <LinkedTitle
+                      linkData={
+                        moduleLinkMap[
+                          `silentWhispersGameplayAndFeatures::items::${index}`
+                        ]
+                      }
+                      locale={locale}
+                    >
+                      {item.name}
+                    </LinkedTitle>
+                  </h3>
                   <p className="text-sm text-muted-foreground">{item.description}</p>
                 </div>
               ),
@@ -473,7 +554,12 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-8 md:mb-12 scroll-reveal">
             <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
-              {t.modules.silentWhispersBeginnerGuide.title}
+              <LinkedTitle
+                linkData={moduleLinkMap["silentWhispersBeginnerGuide"]}
+                locale={locale}
+              >
+                {t.modules.silentWhispersBeginnerGuide.title}
+              </LinkedTitle>
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
               {t.modules.silentWhispersBeginnerGuide.intro}
@@ -495,7 +581,18 @@ export default function HomePageClient({
                 <div className="flex-1">
                   <div className="flex items-center gap-2 mb-1.5 md:mb-2">
                     <DynamicIcon name={step.icon} className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
-                    <h3 className="text-lg md:text-xl font-bold">{step.title}</h3>
+                    <h3 className="text-lg md:text-xl font-bold">
+                      <LinkedTitle
+                        linkData={
+                          moduleLinkMap[
+                            `silentWhispersBeginnerGuide::steps::${index}`
+                          ]
+                        }
+                        locale={locale}
+                      >
+                        {step.title}
+                      </LinkedTitle>
+                    </h3>
                   </div>
                   <p className="text-sm md:text-base text-muted-foreground mb-2">{step.summary}</p>
                   <ul className="space-y-1">
@@ -534,7 +631,12 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-8 md:mb-12 scroll-reveal">
             <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
-              {t.modules.silentWhispersStoryAndWorld.title}
+              <LinkedTitle
+                linkData={moduleLinkMap["silentWhispersStoryAndWorld"]}
+                locale={locale}
+              >
+                {t.modules.silentWhispersStoryAndWorld.title}
+              </LinkedTitle>
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
               {t.modules.silentWhispersStoryAndWorld.intro}
@@ -554,7 +656,18 @@ export default function HomePageClient({
                     {item.category}
                   </span>
                 </div>
-                <h3 className="font-bold text-lg mb-2 text-[hsl(var(--nav-theme-light))]">{item.title}</h3>
+                <h3 className="font-bold text-lg mb-2 text-[hsl(var(--nav-theme-light))]">
+                  <LinkedTitle
+                    linkData={
+                      moduleLinkMap[
+                        `silentWhispersStoryAndWorld::items::${index}`
+                      ]
+                    }
+                    locale={locale}
+                  >
+                    {item.title}
+                  </LinkedTitle>
+                </h3>
                 <p className="text-sm text-muted-foreground mb-3">{item.summary}</p>
                 <ul className="space-y-1">
                   {item.details.map((d: string, i: number) => (
@@ -575,7 +688,12 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-8 md:mb-12 scroll-reveal">
             <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
-              {t.modules.silentWhispersTrailersAndTechDemo.title}
+              <LinkedTitle
+                linkData={moduleLinkMap["silentWhispersTrailersAndTechDemo"]}
+                locale={locale}
+              >
+                {t.modules.silentWhispersTrailersAndTechDemo.title}
+              </LinkedTitle>
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
               {t.modules.silentWhispersTrailersAndTechDemo.intro}
@@ -595,7 +713,18 @@ export default function HomePageClient({
                     {item.type}
                   </span>
                 </div>
-                <h3 className="font-bold text-lg mb-1 text-[hsl(var(--nav-theme-light))]">{item.title}</h3>
+                <h3 className="font-bold text-lg mb-1 text-[hsl(var(--nav-theme-light))]">
+                  <LinkedTitle
+                    linkData={
+                      moduleLinkMap[
+                        `silentWhispersTrailersAndTechDemo::items::${index}`
+                      ]
+                    }
+                    locale={locale}
+                  >
+                    {item.title}
+                  </LinkedTitle>
+                </h3>
                 <p className="text-xs text-muted-foreground mb-2">{item.runtime}</p>
                 <div className="flex flex-wrap gap-1.5 mb-3">
                   {item.tags.map((tag: string, i: number) => (
@@ -634,7 +763,12 @@ export default function HomePageClient({
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-8 md:mb-12 scroll-reveal">
             <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
-              {t.modules.silentWhispersCodesAndRedeemStatus.title}
+              <LinkedTitle
+                linkData={moduleLinkMap["silentWhispersCodesAndRedeemStatus"]}
+                locale={locale}
+              >
+                {t.modules.silentWhispersCodesAndRedeemStatus.title}
+              </LinkedTitle>
             </h2>
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
               {t.modules.silentWhispersCodesAndRedeemStatus.intro}
@@ -654,7 +788,18 @@ export default function HomePageClient({
                     {item.status}
                   </span>
                 </div>
-                <h3 className="font-bold text-lg mb-3 text-[hsl(var(--nav-theme-light))]">{item.title}</h3>
+                <h3 className="font-bold text-lg mb-3 text-[hsl(var(--nav-theme-light))]">
+                  <LinkedTitle
+                    linkData={
+                      moduleLinkMap[
+                        `silentWhispersCodesAndRedeemStatus::items::${index}`
+                      ]
+                    }
+                    locale={locale}
+                  >
+                    {item.title}
+                  </LinkedTitle>
+                </h3>
                 <div className="space-y-1 mb-3 text-sm">
                   <p className="text-muted-foreground">
                     <span className="font-semibold not-italic">Code:</span> {item.code}
